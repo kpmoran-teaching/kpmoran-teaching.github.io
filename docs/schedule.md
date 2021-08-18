@@ -36,7 +36,7 @@ width: 15%
 	<tr>
 		<!-- Week -->			<td rowspan="2"><b>Week 1 - August 24th</b></td>
 		<!-- Topic 1 -->		<td><u>Topic 1:</u> Course Overview</td>
-		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A Re-introduction to Javascript</a></li><li><a style="font-size:12px;" href="https://zellwk.com/blog/es6/">Introduction to Commonly used ES6 features</a></li></ul></td>
+		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A Re-introduction to Javascript</a></li><li style="font-size:12px";><a style="font-size:12px;" href="https://zellwk.com/blog/es6/">Introduction to Commonly used ES6 features</a></li></ul></td>
 		<!-- Lecture -->		<td rowspan="2"><li><a style="font-size:12px;" href="">Slides</a></li>
 		
 		<li><a style="font-size:12px;" href="">Video</a></li></ul></td>
@@ -55,7 +55,13 @@ width: 15%
 	<tr>
 		<!-- Week -->			<td rowspan="2"><b>Week 2 - August 31st</b></td>
 		<!-- Topic -->		<td><u>Topic 1:</u> Organzing Code in Web Apps</td>
-	<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://medium.freecodecamp.org/lets-learn-javascript-closures-66feb44f6a44">Closures</a></li><li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Classes</a></li><li><a style="font-size:12px;" href="https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/">Intro to Node Package Manager</a></li></ul></td>
+	<!-- Readings -->	<td rowspan="2"><ul>
+	
+	<li style="font-size:12px";><a style="font-size:12px;" href="https://medium.freecodecamp.org/lets-learn-javascript-closures-66feb44f6a44">Closures</a></li>
+	<li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Classes</a></li>
+	<li style="font-size:12px";><a style="font-size:12px;" href="https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/">Intro to Node Package Manager</a></li>
+	
+	</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
@@ -71,7 +77,12 @@ width: 15%
 	<tr>
 		<!-- Week -->			<td rowspan="2"><b>Week 3 - September 7th</b></td>
 		<!-- Topic -->		<td><u>Topic 1:</u> Asynchronous Programming Part I</td>
-<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises">Using Promises</a></li><li><a style="font-size:12px;" href="https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/">Node.js event loop</a></li></ul></td>
+<!-- Readings -->	<td rowspan="2"><ul>
+
+<li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises">Using Promises</a></li>
+<li style="font-size:12px";><a style="font-size:12px;" href="https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/">Node.js event loop</a></li>
+
+</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW1</td>
 		</tr>
@@ -89,7 +100,12 @@ width: 15%
 	<tr>
 		<!-- Week -->			<td rowspan="2"><b>Week 4 - September 14th</b></td>
 		<!-- Topic -->		<td><u>Topic 1:</u> Backend Web Development</td>
-		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction">Intro to  Node & Express</a></li><li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">Overview of HTTP</a></li><li><a style="font-size:12px;" href="https://www.infoq.com/articles/rest-introduction">Intro to REST</a></li></ul></td>
+		<!-- Readings -->	<td rowspan="2"><ul>
+		
+		<li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction">Intro to  Node & Express</a></li>
+		<li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">Overview of HTTP</a></li><li style="font-size:12px";><a style="font-size:12px;" href="https://www.infoq.com/articles/rest-introduction">Intro to REST</a></li>
+		
+		</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
@@ -108,9 +124,9 @@ width: 15%
 		<!-- Readings -->	<td rowspan="2"><ul>
 		
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/start">Firebase Get Started</a></li>
-		<li><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/structure-data">Firebase Structure Data</a></li>
-		<li><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/read-and-write">Firebase Read & Write Data</a></li>
-		<li><a style="font-size:12px;" href="https://www.martinfowler.com/articles/microservices.html">Microservices</a></li>
+		<li style="font-size:12px";><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/structure-data">Firebase Structure Data</a></li>
+		<li style="font-size:12px";><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/read-and-write">Firebase Read & Write Data</a></li>
+		<li style="font-size:12px";><a style="font-size:12px;" href="https://www.martinfowler.com/articles/microservices.html">Microservices</a></li>
 		
 		</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
@@ -128,7 +144,11 @@ width: 15%
 	<tr>
 		<!-- Week -->			<td rowspan="2"><b>Week 6 - September 28th</b></td>
 		<!-- Topic -->		<td><u>Topic 1:</u> Security</td>
-		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/">Intro to CORS</a></li></ul></td>
+		<!-- Readings -->	<td rowspan="2"><ul>
+		
+		<li style="font-size:12px";><a style="font-size:12px;" href="https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/">Intro to CORS</a></li>
+		
+		</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW2</td>
 		</tr>
@@ -145,7 +165,11 @@ width: 15%
 	<tr>
 	<!-- Week -->	 <th rowspan="2"><b>Week 7 - October 5th</b></th>
 	<!-- Topic -->		<th><u>Topic 1:</u> Midterm</th>
-	<!-- Readings -->	<th rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://blogs.oracle.com/developers/getting-started-with-microservices-part-four">Fundamentals of DevOps</a></li></ul></td>
+	<!-- Readings -->	<th rowspan="2"><ul>
+	
+	<li style="font-size:12px";><a style="font-size:12px;" href="https://blogs.oracle.com/developers/getting-started-with-microservices-part-four">Fundamentals of DevOps</a></li>
+	
+	</ul></td>
 		<!-- Lecture -->		<th rowspan="2"></td>
 		<!-- Assignments --><th style="font-size:12px"; rowspan="2">None</td>
 		</tr>
