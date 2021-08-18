@@ -51,6 +51,7 @@ markdown_extensions:
       toc_depth: 3
   - attr_list
   - meta
+  - footnotes
 
 extra:
   generator: false
