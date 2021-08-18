@@ -21,15 +21,12 @@
 			<ul>
 		</td>
 		<td width="50%">
-			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/Xu.png">
+			&nbsp;&nbsp; <img style="vertical-align:middle" src="../images/David.png">
 			<ul>
-				<li style="font-size:14px";><b>Instructor:</b> Xu Han</a></li>
+	<li style="font-size:14px";><b>Instructor:</b> David Gonzalez Samudio</a></li>
 				<li style="font-size:14px";><b>Office:</b> <a href="https://cs.gmu.edu/about/visit-the-department/">Nguyen Engineering Building</a> TBA</li>
-				<li style="font-size:14px";><b>Email:</b> <a href="mailto:xhan21@gmu.edu">xhan21(at)gmu.edu</a></li>
-				<li style="font-size:14px";><b>(Virtual) Office Hours:</b> Wednesday, 10:00am-12:00pm </li>
-				<li style="font-size:14px";><div style="text-align: center;">
-<a href="https://gmu.zoom.us/j/6062806061" title="TA Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
-</div></li>
+				<li style="font-size:14px";><b>Email:</b> <a href="mailto:dgonza10@gmu.edu">dgonza10(at)gmu.edu</a></li>
+				<li style="font-size:14px";><b>(Virtual) Office Hours:</b> TBA</li>
 			<ul>
 		</td>
 	</tr>
@@ -40,15 +37,18 @@
 
 #### Course Meeting Times
 
-* **Class Hours:** Wednesdays, 4:30pm-7:10pm
-* **Class Room:** Remote Instruction via Zoom - [Zoom Link](https://gmu.zoom.us/j/98318501915) (Requires GMU Zoom Account)
+* **Class Hours:** Tuesdays, 4:30pm-7:10pm
+* **Class Room:** [Sandbridge Hall Room 107]()[^1] 
+
+[^1]: Backup Instruction (should the class need to pivot to virtual) will be conducted on Zoom [Zoom Link](https://gmu.zoom.us/j/) (Requires Signing In with GMU Zoom Account)
 
 #### Virtual Course Spaces
 
-* **[Course Website](https://cs.gmu.io/swe-632-s21/):** Syllabus, Schedule, Assignments, Lecture Slides, Lecture Recordings
-* **[Zoom](https://gmu.zoom.us/j/98318501915):** Synchronous Class Sessions - [Zoom Link](https://gmu.zoom.us/j/98318501915) (Requires GMU Zoom Account)
-* **[Piazza](https://piazza.com/gmu/spring2021/swe632/home):** Announcements, Discussion
+* **[Course Website](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21):** Syllabus, Schedule, Assignments, Lecture Slides, Lecture Recordings
+* **[Zoom](https://gmu.zoom.us/j/98318501915):** Office Hours - [Zoom Link](https://gmu.zoom.us/j/) (Requires GMU Zoom Account)
+* **[Piazza](https://piazza.com/gmu/fall2021/swe432/home):** Announcements, Discussion
 * **[Blackboard (MyMason)](https://mymason.gmu.edu/):** Grades
+
 
 
 ### <u>Course Description & Texts</u>
