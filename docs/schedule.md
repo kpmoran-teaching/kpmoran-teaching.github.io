@@ -26,339 +26,280 @@ width: 15%
 	<tr>
 		<th class="week"><h4>Week</h4></th>
 		<th class="topic"><h4>Topic</h4></th>
-		<th class="readings"><h4>Req. Readings</h4></th>
+		<th class="readings"><h4>References/Readings</h4></th>
 		<th class="lecture"><h4>Lecture Materials</h4></th>
-		<th class="techtalks"><h4>Tech Talk</h4></th>
 		<th class="assignments"><h4>Assignments Due</h4></th>
-		<th class="discussion"><h4>Discussion</h4></th>
 	</tr>
 	
 	
 	<!--Week 1-->
 	<tr>
-		<!-- Week -->			<td><b>Week 1 - January 27th</b></td>
-		<!-- Topic -->		<td>Course Overview & Heuristic Evaluation</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>None</li></td>
-		<!-- Lecture -->		<td><li><a style="font-size:12px;" href="../lectures/Week-1-Overiew-and-Hueristic-Evaluation.pdf">Slides</a></li>
+		<!-- Week -->			<td rowspan="2"><b>Week 1 - August 24th</b></td>
+		<!-- Topic 1 -->		<td><u>Topic 1:</u> Course Overview</td>
+		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A Re-introduction to Javascript</a></li><li><a style="font-size:12px;" href="https://zellwk.com/blog/es6/">Introduction to Commonly used ES6 features</a></li></ul></td>
+		<!-- Lecture -->		<td rowspan="2"><li><a style="font-size:12px;" href="">Slides</a></li>
 		
-		<li><a style="font-size:12px;" href="../week-1-lecture-video/">Video</a></li>
+		<li><a style="font-size:12px;" href="">Video</a></li></ul></td>
 		
-		<li><a style="font-size:12px;" href="../firebase-tech-talk/">Tech Talk</a></li></td>
-		<!-- Tech Talk -->	<td><li style="font-size:12px";><a href="../lectures/Firebase-Tech-Talk.pdf">Firebase - Prof. Moran</a></li></ul></td>
-		<!-- Assignments --><td style="font-size:12px";>None</td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-0/">D-0: Introduce Yourself!</a></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Javascript</td>
+		</tr>
+
 		
 <!--------------------------------------------------------------------------------->
 		
 		<!--Week 2-->
 	<tr>
-		<!-- Week -->			<td><b>Week 2 - February 3rd</b></td>
-		<!-- Topic -->		<td>Sketching and Prototyping</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";><a href="http://faculty.washington.edu/ajko/books/design-methods/how-to-be-creative.html">Ko, How to Be Creative</a></li><li style="font-size:12px";><a href="http://faculty.washington.edu/ajko/books/design-methods/how-to-prototype.html">Ko, How to Prototype</a></li><li style="font-size:12px";><a href="http://faculty.washington.edu/ajko/books/design-methods/how-to-be-critical.html">Ko, How to Critique</a></li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-2-Sketching-and-Prototyping.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-2-lecture-video/">Video</a></li>
-		
-		<li><a style="font-size:12px;" href="../firebase-tech-talk/">Tech Talk</a></li>
-		
-		</td>
-		<!-- Tech Talk -->	<td><li><a style="font-size:12px;" href="../lectures/V2S-Tech-Talk.pdf">V2S - Prof. Moran </a></li><li style="font-size:12px;">Tech Talk Signup Due</li></td>
-		<!-- Assignments --><td><a style="font-size:12px;" href="../project-checkpoint-0/">Project Checkpoint 0</a></td>
-		<!-- Discussion -->	<td><a style="font-size:12px; line-height:18px; vertical-align:top;" href="../discussion-1/">D-1: Creative Strategies</a></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 2 - August 31st</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Organzing Code in Web Apps</td>
+	<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://medium.freecodecamp.org/lets-learn-javascript-closures-66feb44f6a44">Closures</a></li><li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes">Classes</a></li><li><a style="font-size:12px;" href="https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/">Intro to Node Package Manager</a></li></ul></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Javascript Tools & Testing</td>
+		</tr>
+
 
 <!--------------------------------------------------------------------------------->
 		
 	<!--Week 3-->
 	<tr>
-		<!-- Week -->			<td><b>Week 3 - February 10th</b></td>
-		<!-- Topic -->		<td>Human Cognition</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>Norman, Chapter 1: The Psychopathology of Everyday Things</li><li style="font-size:12px">Norman, Chapter 2: The Psychology of Everyday Actions</li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-3-Human-Cognition.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-3-lecture-video/">Video</a></li>
-		
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";>None</li></ul></td>
-		
-		<!-- Assignments --><td><a style="font-size:12px;" href="../project-checkpoint-1/">Project Checkpoint 1</a></td>
-		
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-2/">D-2: Software Affordances & Signifiers</a></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 3 - September 7th</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Asynchronous Programming Part I</td>
+<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises">Using Promises</a></li><li><a style="font-size:12px;" href="https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/">Node.js event loop</a></li></ul></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW1</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Asynchronous Programming Part II</td>
+		</tr>
+
+		
+
 		
 <!--------------------------------------------------------------------------------->		
 		
 	<!--Week 4-->
 	<tr>
-		<!-- Week -->			<td><b>Week 4 - February 17th</b></td>
-		<!-- Topic -->		<td>User Centered Design</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>Norman, Chapter 6: Design Thinking</li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-4-User-Centered-Design.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-4-lecture-video/">Video</a></li>
-		
-
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://www.selenium.dev">Selenium</a></li></ul></td>
-		<!-- Assignments --><td style="font-size:12px";> None </td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-3/">D-3: User-Centered Observation</a></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 4 - September 14th</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Backend Web Development</td>
+		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction">Intro to  Node & Express</a></li><li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">Overview of HTTP</a></li><li><a style="font-size:12px;" href="https://www.infoq.com/articles/rest-introduction">Intro to REST</a></li></ul></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Handling HTTP requests</td>
+		</tr>
+
+
 		
 <!--------------------------------------------------------------------------------->		
 	<!--Week 5-->
 	<tr>
-		<!-- Week -->			<td><b>Week 5 - February 24th</b></td>
-		<!-- Topic -->		<td>Contextual Inquiry</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";><a href="../readings/B&H.pdf">Beyer and Holtzblatt, Apprenticing with the customer, CACM 38</a></li></ul></td>
-		<!-- Lecture -->		<td>
+		<!-- Week -->			<td rowspan="2"><b>Week 5 - September 21st</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Persistence</td>
+		<!-- Readings -->	<td rowspan="2"><ul>
 		
+		<li style="font-size:12px";><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/start">Firebase Get Started</a></li>
+		<li><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/structure-data">Firebase Structure Data</a></li>
+		<li><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/read-and-write">Firebase Read & Write Data</a></li>
+		<li><a style="font-size:12px;" href="https://www.martinfowler.com/articles/microservices.html">Microservices</a></li>
 		
-		<li><a style="font-size:12px;" href="../lectures/Week-5-Contextual-Inquiry.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-5-lecture-video/">Video</a></li>
-		
-
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://angular.io">Angular</a></li></ul></td>
-		<!-- Assignments --><td><a style="font-size:12px;" href="../project-checkpoint-2/">Project Checkpoint 2</a></td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-4/">D-4: Contextual Inquiry Challenges</a></td>
+		</ul></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Microservices</td>
+		</tr>
+
 		
 <!--------------------------------------------------------------------------------->
 		
 	<!--Week 6-->
 	<tr>
-		<!-- Week -->			<td><b>Week 6 - March 3rd</b></td>
-		<!-- Topic -->		<td>Think-aloud Usability Evaluations</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>Krug, Chapter 9, Usability Testing on 10 cents a Day</li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-6-Think-Aloud-Usability-Evaluations.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-6-lecture-video/">Video</a></li>
-		
-
-
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://www.cypress.io">Cypress</a></li></ul></td>
-		<!-- Assignments --><td><a style="font-size:12px;" href="../project-checkpoint-3/">Project Checkpoint 3</a></td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-5/">D-5: Midterm Exam Review</a></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 6 - September 28th</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Security</td>
+		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/">Intro to CORS</a></li></ul></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW2</td>
 		</tr>
 		
+		<tr>
+		<td><u>Topic 2:</u> Templates, Databinding, and HTML</td>
+		</tr>
+
 		
 <!--------------------------------------------------------------------------------->
 
 		
 	<!--Week 7-->
 	<tr>
-	<th style="vertical-align:middle;" ><b>Week 7 - March 10th</b></th>
-								<th style="vertical-align:middle;" colspan=6><center><b>Midterm Exam</b></center></th>
+	<!-- Week -->	 <th rowspan="2"><b>Week 7 - October 5th</b></th>
+	<!-- Topic -->		<th><u>Topic 1:</u> Midterm</th>
+	<!-- Readings -->	<th rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://blogs.oracle.com/developers/getting-started-with-microservices-part-four">Fundamentals of DevOps</a></li></ul></td>
+		<!-- Lecture -->		<th rowspan="2"></td>
+		<!-- Assignments --><th style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<th><u>Topic 2:</u> Deployment Lecture</td>
+		</tr>
+
 		
 <!--------------------------------------------------------------------------------->
 		
 	<!--Week 8-->
 
 	<tr>
-		<!-- Week -->			<td><b>Week 8 - March 17th</b></td>
-		<!-- Topic -->		<td>Site Design</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>Krug, Chapter 6, Street Signs and Breadcrumbs</li><li style="font-size:12px";>Krug, Chapter 7, The Big Bang Theory of Web Design</li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-8-Site-Design.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-8-lecture-video/">Video</a></li>
-
-		
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://www.jenkins.io">Jenkins</a></li>
-		
-		<li style="font-size:12px";><a href="https://www.invisionapp.com">Invision</a></li>
-		
-		</ul></td>
-		<!-- Assignments --><td></td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-6">D6: Evaluating Navigation Design</a></td>
-		</tr>
+	<th style="vertical-align:middle;" ><b>Week 8 - October 12th</b></th>
+								<th style="vertical-align:middle;" colspan=6><center><b>No Class - Fall Break</b></center></th>
+		</tr>		
 
 <!--------------------------------------------------------------------------------->
 		
 	<!--Week 9-->
 	<tr>
-		<!-- Week -->			<td><b>Week 9 - March 24th</b></td>
-		<!-- Topic -->		<td>Interaction Techniques</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>Krug, Chapter 10, Mobile: It's not just a city in Alabama anymore</li><li style="font-size:12px";>Krug, Chapter 11, Usability as common courtesy</li><li style="font-size:12px";>Krug, Chapter 12, Accessibility and you</li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-9-Interaction-Techniques.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-9-lecture-video/">Video</a></li>
-
-
-		
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://www.tableau.com">Tableau</a></li></ul></td>
-		<!-- Assignments --><td><a style="font-size:12px;" href="../project-checkpoint-4/">Project Checkpoint 4</a></td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-7">D7: Evaluating Universal Design</a></td>
-
+		<!-- Week -->			<td rowspan="2"><b>Week 9 - October 19th</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> React Part I</td>
+		<!-- Readings -->	<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> React Part II</td>
+		</tr>
+
+
 		
 <!--------------------------------------------------------------------------------->
 
 		
 	<!--Week 10-->
 	<tr>
-		<!-- Week -->			<td><b>Week 10 - March 31st</b></td>
-		<!-- Topic -->		<td>Preventing Error</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>Norman, Chapter 5, Human Error? No, Bad Design</li></ul></td>
-		<!-- Lecture -->		<td>
+		<!-- Week -->			<td rowspan="2"><b>Week 10 - October 26th</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> CSS & DOM</td>
+		<!-- Readings -->	<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW3</td>
+		</tr>
 		
-		
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-10-Preventing-Error.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-10-lecture-video/">Video</a></li>
+		<tr>
+		<td><u>Topic 2:</u> React Part 3</td>
+		</tr>
 
-
 		
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://www.djangoproject.com">Django</a></li>
-		
-		<li style="font-size:12px";><a href="https://nodejs.org/en/">NodeJS</a></li>
-		
-		</ul></td>
-		<!-- Assignments --><td style="font-size:12px;">None</td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-8">D8: Identifying Unsafe Acts</a></td>
-				</tr>
+	
 				
 <!--------------------------------------------------------------------------------->		
 		
 	<!--Week 11-->
 	<tr>
-		<!-- Week -->			<td><b>Week 11 - April 7th</b></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 11 - November 2nd</b></td>
 		
-		<!-- Topic -->		<td>Visual Design</td>
-		
-		<!-- Readings -->	<td><ul><li style="font-size:12px";><a href="../week-11-reading/">Mullet and Sano, Chapter 4, Organization and Visual Structure</a></li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		
-		
-		
-		<li><a style="font-size:12px;" href="../lectures/Week-11-Visual-Design.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-11-lecture-video/">Video</a></li>
-
-
-
-		
-		</td>
-		
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://www.figma.com">Figma</a></li></ul></td>
-		
-		<!-- Assignments --><td><a style="font-size:12px;" href="../project-checkpoint-5/">Project Checkpoint 5</a></td>
-		
-		<!-- Discussion -->	<td style="font-size:12px;">None</td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Usability and User-Centered Design</td>
+		<!-- Readings -->	<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Sketching and Prototyping</td>
+		</tr>
+
+				
+		
 		
 		
 <!--------------------------------------------------------------------------------->		
 		
 	<!--Week 12-->
 	<tr>
-		<!-- Week -->			<td><b>Week 12 - April 14th</b></td>
-		<!-- Topic -->		<td>Information Visualization</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";><a href="../week-12-reading/">Card, Mackinlay, and Shneiderman, Chapter 1, Information Visualization </a></li></ul></td>
-		<!-- Lecture -->		<td>
-		
-			
-		<li><a style="font-size:12px;" href="../lectures/Week-12-Information-Visualization.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-12-lecture-video/">Video</a></li>
-
-
-		
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://www.appsheet.com">Appsheet</a></li>
-		
-		<li style="font-size:12px";><a href="https://flutter.dev">Flutter</a></li>
-		
-		</ul></td>
-		<!-- Assignments --><td><a style="font-size:12px;" href="../project-checkpoint-6/">Project Checkpoint 6</a></td>
-		<!-- Discussion -->	<td><a style="font-size:12px;" href="../discussion-9">D9: Distorted InfoVis</a></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 12 - November 9th</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Think-aloud Usability Studies</td>
+		<!-- Readings -->	<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Site Design</td>
+		</tr>
+
+		
+	
 		
 <!--------------------------------------------------------------------------------->
 
 		
 	<!--Week 13-->
 	<tr>
-		<!-- Week -->			<td><b>Week 13 - April 21st</b></td>
-		<!-- Topic -->		<td>Community Design</td>
-		<!-- Readings -->	<td><ul><li style="font-size:12px";><a href="../readings/K&R.pdf">Kraut and Resnick, Chapter 2, Encouraging Contribution to Online Communities</a></li></ul></td>
-		<!-- Lecture -->		<td>
-		
-		
-			
-		<li><a style="font-size:12px;" href="../lectures/Week-13-Community-Design.pdf">Slides</a></li>
-		
-		<li><a style="font-size:12px;" href="../week-13-lecture-video/">Video</a></li>
-
-		
-		</td>
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";><a href="https://reactjs.org">React</a></li></ul></td>
-		<!-- Assignments --><td style="font-size:12px;"><a href="../project-checkpoint-7/">Project Checkpoint 7</a></td>
-		<!-- Discussion -->	<td style="font-size:12px;">None</td>
+		<!-- Week -->			<td rowspan="2"><b>Week 13 - November 16th</b></td>
+		<!-- Topic -->		<td><u>Topic 1:</u> Interaction Techniques</td>
+	<!-- Readings -->	<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW4</td>
 		</tr>
+		
+		<tr>
+		<td><u>Topic 2:</u> Visual Design</td>
+		</tr>
+
+	
+	
+	
 		
 <!--------------------------------------------------------------------------------->
 
 		
 	<!--Week 14-->
 	<tr>
-		<!-- Week -->			<td><b>Week 14 - April 28th</b></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 14 - November 23rd</b></td>
 		
-		<!-- Topic -->		<td>Review & Project Presentations</td>
-		
-		<!-- Readings -->	<td><ul><li style="font-size:12px";>None</li></ul></td>
-		
-		<!-- Lecture -->		<td>
-		
-		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-14-Final-Exam-Review.pdf">Slides</a></li>
-		
-		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../week-13-lecture-video/">Video</a></li>
-
-		
-		</td>
-		
-		<!-- Tech Talk -->	<td><ul><li style="font-size:12px";>None</li></ul></td>
-		
-		<!-- Assignments --><td style="font-size:12px;"><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:top;" href="../final-project-presentation/">Final Project Presentation</a></td>
-		
-		<!-- Discussion -->	<td><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../discussion-10">D10: Final Exam Review</a></td>
-		
+		<!-- Topic -->		<td><u>Topic 1:</u> Information Visualization</td>
+		<!-- Readings -->	<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
 		</tr>
 		
+		<tr>
+		<td><u>Topic 2:</u> InfoVis Frameworks</td>
+		</tr>
+
 		
 <!--------------------------------------------------------------------------------->
 
 
 	<!--Week 15-->
 	<tr>
-		<!-- Week -->			<th style="vertical-align:middle;"><b>Week 15 - May 5th</b></th>
-		<!-- Topic -->		<th style="vertical-align:middle;" colspan=6><center><b>Final Exam</b></center></th>
-		</tr>
+		<!-- Week -->			<td rowspan="2"><b>Week 14 - November 30th</b></td>
 		
+		<!-- Topic -->		<td rowspan="2">Review</td>
+		<!-- Readings -->	<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW5</td>
+		</tr>
+		<tr>
+		</tr>
+
+		
+<!--------------------------------------------------------------------------------->
+		
+<!--Week 16-->
+	<tr>
+	<th style="vertical-align:middle;" ><b>Week 16 - December 7th</b></th>
+								<th style="vertical-align:middle;" colspan=6><center><b>Midterm Exam</b></center></th>
+		</tr>		
+
 </table>
 
 !!! note ""
