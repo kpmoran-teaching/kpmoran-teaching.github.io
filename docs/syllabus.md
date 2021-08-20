@@ -65,15 +65,16 @@
 
 #### Overview
 
-This course will provide a comprehensive introduction to human-computer interaction and the design and development of user interfaces, covering basic human cognition, methods for need-finding and prototyping, user-centered design, empirical and analytical methods for conducting usability evaluations, and principles for visual, information, interaction, and community design.
+This course will provide a comprehensive introduction to web app development, covering JavaScript, back end development, front end development, and user interface design.
 
 #### Learning Outcomes
 
-* Design a UI through user-centered design
-* Conduct a heuristic evaluation or think-aloud usability study to identify usability issues
-* Use principles from visual, interaction, and community design to identify and address usability issues
-* Improve a UI by addressing usability issues through iterative design
-* Use modern web technologies to implement a UI
+* Knowledge of quantitative engineering principles for how to build software user interfaces, especially web-based user interfaces, that are usable
+* Understanding the client-server and message-passing computing models in the context of web applications
+* Knowledge for how to build usable, secure and effective web applications
+* Theoretical and practical knowledge about how data are stored and shared in web applications
+* Component software development using specific technologies
+* Understanding that usability is more important than efficiency for almost all modern software projects, and often the primary factor that leads to product success
 
 #### Prerequisites 
 
@@ -81,11 +82,9 @@ You must be able to program using OO concepts, and have general knowledge of sof
 
 #### Required Textbooks & Other Course Materials
 
-* [Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability](https://gmu.bncollege.com/shop/BNCB_TextbookDetailView?displayStoreId=15552&urlRequestType=Base&catalogId=10001&productId=600006043692&langId=-1&partNumber=MBS_1393944&storeId=15552&sectionId=97570375&item=N), Steve Krug, 2014 (3rd Edition) (referenced as Krug)
+There is no required textbook for this course, however, useful reading materials will be posted to the [course schedule page](../schedule/) that supplement the class lectures and will serve as appropriate reference material.
 
-* [The Design of Everyday Things: Revised and Expanded Edition](https://gmu.bncollege.com/shop/BNCB_TextbookDetailView?displayStoreId=15552&urlRequestType=Base&catalogId=10001&productId=600005982489&langId=-1&partNumber=MBS_1393182&storeId=15552&sectionId=97570375&item=N), Don Norman, Basic Books, 2013 (referenced as Norman)
-
-*All other materials will either be freely available online, or available as a PDF on Piazza.*
+*All course materials will either be freely available online, or available as a PDF on Ed Discussions.*
 
 ### <u>Course Communication</u>
 

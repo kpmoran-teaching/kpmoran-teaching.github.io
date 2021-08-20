@@ -163,7 +163,7 @@ width: 15%
 		
 	<!--Week 7-->
 	<tr>
-	<!-- Week -->	 <th rowspan="2"><b>Week 7 - October 5th</b></th>
+	<!-- Week -->	 <td rowspan="2"><b>Week 7 - October 5th</b></th>
 	<!-- Topic -->		<th><u>Topic 1:</u> Midterm Exam</th>
 	<!-- Readings -->	<td rowspan="2"><ul>
 	
