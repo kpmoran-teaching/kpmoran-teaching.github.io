@@ -164,18 +164,18 @@ width: 15%
 	<!--Week 7-->
 	<tr>
 	<!-- Week -->	 <th rowspan="2"><b>Week 7 - October 5th</b></th>
-	<!-- Topic -->		<th><u>Topic 1:</u> Midterm</th>
-	<!-- Readings -->	<th rowspan="2"><ul>
+	<!-- Topic -->		<th><u>Topic 1:</u> Midterm Exam</th>
+	<!-- Readings -->	<td rowspan="2"><ul>
 	
 	<li style="font-size:12px";><a style="font-size:12px;" href="https://blogs.oracle.com/developers/getting-started-with-microservices-part-four">Fundamentals of DevOps</a></li>
 	
 	</ul></td>
-		<!-- Lecture -->		<th rowspan="2"></td>
-		<!-- Assignments --><th style="font-size:12px"; rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
-		<th><u>Topic 2:</u> Deployment Lecture (Virtual Lecture)</td>
+		<td><u>Topic 2:</u> Deployment Lecture (Virtual Lecture)</td>
 		</tr>
 
 		

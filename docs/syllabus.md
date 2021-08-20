@@ -14,9 +14,9 @@
 				<li style="font-size:14px";><b>Instructor:</b> <a href="https://www.kpmoran.com">Dr. Kevin Moran</a></li>
 				<li style="font-size:14px";><b>Office:</b> <a href="https://cs.gmu.edu/about/visit-the-department/">Nguyen Engineering Building</a> 4448</li>
 				<li style="font-size:14px";><b>Email:</b> <a href="mailto:kpmoran@gmu.edu">kpmoran(at)gmu.edu</a></li>
-				<li style="font-size:14px";><b>(Virtual) Office Hours:</b> Tuesdays, 4:00pm-5:00pm, Wednesdays, 7:10-7:45pm </li>
+				<li style="font-size:14px";><b>(Hybrid) Office Hours:</b> Monday 1:00pm-2:00pm, Wednesday, 1:00pm-2:00pm or by appointment </li>
 				<li style="font-size:14px";><div style="text-align: center;">
-<a href="https://gmu.zoom.us/j/97807783042" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
+<a href="https://gmu.zoom.us/j/92034905163" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
 </div></li>
 			<ul>
 		</td>
@@ -38,16 +38,26 @@
 #### Course Meeting Times
 
 * **Class Hours:** Tuesdays, 4:30pm-7:10pm
-* **Class Room:** [Sandbridge Hall Room 107]()[^1] 
+* **Class Room:** [Sandbridge Hall Room 107](https://goo.gl/maps/5KKrsCF5ezTpwyfi7)[^1] 
 
-[^1]: Backup Instruction (should the class need to pivot to virtual) will be conducted on Zoom [Zoom Link](https://gmu.zoom.us/j/) (Requires Signing In with GMU Zoom Account)
+[^1]: Backup Instruction (should the class need to pivot to virtual) will be conducted on Zoom [Zoom Link](https://gmu.zoom.us/j/93312563201) (Requires Signing In with GMU Zoom Account)
+
+<!----
+<div style="text-align: center;">
+<a href="https://gmu.zoom.us/j/98318501915" title="Click Here to Join the Zoom Meeting" class="md-button md-button--primary">Join the Zoom Meeting </a>
+</div>
+--->
+
+---------
 
 #### Virtual Course Spaces
 
 * **[Course Website](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21):** Syllabus, Schedule, Assignments, Lecture Slides, Lecture Recordings
-* **[Zoom](https://gmu.zoom.us/j/98318501915):** Office Hours - [Zoom Link](https://gmu.zoom.us/j/) (Requires GMU Zoom Account)
-* **[Piazza](https://piazza.com/gmu/fall2021/swe432/home):** Announcements, Discussion
+* **[Zoom]():** Hybrid Office Hours - [Zoom Link]() (Requires GMU Zoom Account)
+* **[Ed Discussions](https://edstem.org)[^2]:** Announcements, Discussion
 * **[Blackboard (MyMason)](https://mymason.gmu.edu/):** Grades
+
+[^2]: Ed Discussions is a new type of software that we will be trialing for this semester. Think of this as a supercharged and easy to use version of Piazza 🙂
 
 
 

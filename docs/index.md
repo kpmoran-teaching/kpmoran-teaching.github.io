@@ -18,7 +18,7 @@ This course will provide a comprehensive introduction to web app development, co
 				<li style="font-size:14px";><b>Email:</b> <a href="mailto:kpmoran@gmu.edu">kpmoran(at)gmu.edu</a></li>
 				<li style="font-size:14px";><b>(Hybrid) Office Hours:</b> Monday 1:00pm-2:00pm, Wednesday, 1:00pm-2:00pm or by appointment</li>
 				<li style="font-size:14px";><div style="text-align: center;">
-<a href="https://gmu.zoom.us/j/97807783042" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
+<a href="https://gmu.zoom.us/j/92034905163" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
 </div></li>
 			<ul>
 		</td>
@@ -29,6 +29,9 @@ This course will provide a comprehensive introduction to web app development, co
 				<li style="font-size:14px";><b>Office:</b> <a href="https://cs.gmu.edu/about/visit-the-department/">Nguyen Engineering Building</a> TBA</li>
 				<li style="font-size:14px";><b>Email:</b> <a href="mailto:dgonza10@gmu.edu">dgonza10(at)gmu.edu</a></li>
 				<li style="font-size:14px";><b>(Hybrid) Office Hours:</b> TBA</li>
+				<li style="font-size:14px";><div style="text-align: center;">
+<a href="" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
+</div></li>
 			<ul>
 		</td>
 	</tr>
@@ -42,7 +45,7 @@ This course will provide a comprehensive introduction to web app development, co
 * **Class Hours:** Tuesdays, 4:30pm-7:10pm
 * **Class Room:** [Sandbridge Hall Room 107](https://goo.gl/maps/5KKrsCF5ezTpwyfi7)[^1] 
 
-[^1]: Backup Instruction (should the class need to pivot to virtual) will be conducted on Zoom [Zoom Link](https://gmu.zoom.us/j/) (Requires Signing In with GMU Zoom Account)
+[^1]: Backup Instruction (should the class need to pivot to virtual) will be conducted on Zoom [Zoom Link](https://gmu.zoom.us/j/93312563201) (Requires Signing In with GMU Zoom Account)
 
 <!----
 <div style="text-align: center;">
