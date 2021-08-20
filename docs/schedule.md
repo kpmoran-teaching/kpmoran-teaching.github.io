@@ -41,7 +41,7 @@ width: 15%
 		
 		<li><a style="font-size:12px;" href="">Video</a></li></ul></td>
 		
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -63,7 +63,7 @@ width: 15%
 	
 	</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -84,7 +84,7 @@ width: 15%
 
 </ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW1</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><a style="font-size:12px;" href="../hw1/">HW1</a></td>
 		</tr>
 		
 		<tr>
@@ -107,7 +107,7 @@ width: 15%
 		
 		</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -130,7 +130,7 @@ width: 15%
 		
 		</ul></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -171,11 +171,11 @@ width: 15%
 	
 	</ul></td>
 		<!-- Lecture -->		<th rowspan="2"></td>
-		<!-- Assignments --><th style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><th style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
-		<th><u>Topic 2:</u> Deployment Lecture</td>
+		<th><u>Topic 2:</u> Deployment Lecture (Virtual Lecture)</td>
 		</tr>
 
 		
@@ -196,7 +196,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> React Part I</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -233,7 +233,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> Usability and User-Centered Design</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -252,7 +252,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> Think-aloud Usability Studies</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -292,7 +292,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> Information Visualization</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">None</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
