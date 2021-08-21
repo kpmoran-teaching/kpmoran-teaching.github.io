@@ -2,7 +2,7 @@
 
 ### Assignments Overview
 
-There will be 5 major assignments and will distributed over the course of the semester such that you will have two weeks to complete each assignment. Each of these assignments will help you to implement and gain experience with the different concepts and 
+There will be 5 major assignments and will distributed over the course of the semester such that you will have two weeks to complete each assignment. Each of these assignments will help you to implement and gain experience with the different concepts and reinforce the material taught during lectures. These assignments will range from implementing simple web apps with a minimal feature set to Frontend and Backend development, to evaluating the user experience of a web app.
 
 
 ### Collaboration Policy
@@ -31,7 +31,7 @@ All HWs are due by the time class begins (4:30pm) on the due date indicated.  Se
 		<td><b>Assignment 1:</b> Proposal</td>
 		<td>September 7th</td>
 		<td><div style="text-align: center;">
-<a href="../hw-1/" title="Assignment Page" class="md-button md-button--primary"> Assignment Page </a>
+<a href="../hw1/" title="Assignment Page" class="md-button md-button--primary"> Assignment Page </a>
 </div></td>
 	</tr>
 	<tr>
