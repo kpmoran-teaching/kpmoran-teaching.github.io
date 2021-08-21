@@ -2,6 +2,15 @@
 
 This course will provide a comprehensive introduction to web app development, covering JavaScript, back end development, front end development, and user interface design.
 
+## Welcome Video
+
+<div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+   <img src="../images/intro-video.png" style="cursor:pointer" />
+</div>
+<div style="display:none">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/dLRDus_Si-Y' frameborder='0' allowfullscreen></iframe></div>
+</div>
+
 ## General Course Information
 
 <table width="100%">
