@@ -287,3 +287,17 @@ If you will miss one of our Zoom sessions due to a religious holiday or observan
 George Mason University is committed to providing a learning, living and working environment that is free from discrimination and a campus that is free of sexual misconduct and other acts of interpersonal violence in order to promote community well-being and student success. We encourage students who believe that they have been sexually harassed, assaulted or subjected to sexual misconduct to seek assistance and support. [University Policy 1202: Sexual Harassment and Misconduct](https://universitypolicy.gmu.edu/policies/sexual-harassment-policy/) speaks to the specifics of Mason’s process, the resources, and the options available to students.
 
 As a faculty member and designated “Responsible Employee,” I am required to report all disclosures of sexual assault, interpersonal violence, and stalking to Mason’s Title IX Coordinator per university policy 1412. If you wish to speak with someone confidentially, please contact the Student Support and Advocacy Center (703-380-1434) or Counseling and Psychological Services (703-993-2380). You may also seek assistance from Mason’s Title IX Coordinator (703-993-8730; [titleix@gmu.edu](mailto:titleix@gmu.edu)).
+
+#### Emergency Procedures 
+
+All students are encouraged to enroll in the Mason Alert Emergency Notification System to receive timely warnings and notifications about incidents on campus: https://ready.gmu.edu/masonalert/. If you would like more information about emergency procedures visit http://www.fema.gov/ or http://ehs.gmu.edu/emergencymanagement/be-prepared/.  
+
+#### Student Services 
+
+There are a number of services on campus available to students to facilitate academic success and personal wellness. I will list links to a few of these services below. If you find that you are struggling in this course, or otherwise need assistance to guarantee your health and success during this semester, I am happy to help connect you to other campus resources. Please reach out to me. 
+
+* [Counseling and Psychological Services](caps.gmu.edu)
+* [University Libraries](library.gmu.edu)
+* [Writing Center](writingcenter.gmu.edu)
+* [Keep Learning: Learning Services (for COVID-19 learning resources)](learningservices.gmu.edu/keeplearning/)
+

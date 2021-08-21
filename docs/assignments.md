@@ -28,29 +28,29 @@ All HWs are due by the time class begins (4:30pm) on the due date indicated.  Se
 		<th> <h3>Assignment Description</h3> </th> 
 	</tr>
 	<tr>
-		<td><b>Assignment 1:</b> Proposal</td>
+		<td><b>Assignment 1:</b> Javascript</td>
 		<td>September 7th</td>
 		<td><div style="text-align: center;">
 <a href="../hw1/" title="Assignment Page" class="md-button md-button--primary"> Assignment Page </a>
 </div></td>
 	</tr>
 	<tr>
-		<td><b>Assignment 2:</b> Sketching and Storyboarding</td>
+		<td><b>Assignment 2:</b> Backend Development</td>
 		<td>September 28th</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td><b>Assignment 3:</b>Initial Prototype</td>
+		<td><b>Assignment 3:</b> Persistence & Frontend Development</td>
 		<td>October 26th</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td><b>Assignment 4:</b> Heuristic Evaluation</td>
+		<td><b>Assignment 4:</b> Interactive Frontend</td>
 		<td>November 16th</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td><b>Assignment 5:</b> Interaction Design Iteration</td>
+		<td><b>Assignment 5:</b> User Experience Design</td>
 		<td>November 30th</td>
 		<td></td>
 	</tr>
