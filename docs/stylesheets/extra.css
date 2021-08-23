@@ -16,7 +16,7 @@
 }
 
 .md-nav__title[for=__toc] {
-  background-color: #01693F !important;
+  background-color: var(--md-default-bg-color) !important;
 }
 
 .md-typeset table:not([class]){
