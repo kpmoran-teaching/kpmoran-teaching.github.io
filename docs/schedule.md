@@ -321,7 +321,7 @@ width: 15%
 <!--Week 16-->
 	<tr>
 	<th style="vertical-align:middle;" ><b>Week 16 - December 7th</b></th>
-								<th style="vertical-align:middle;" colspan=6><center><b>Midterm Exam</b></center></th>
+								<th style="vertical-align:middle;" colspan=6><center><b>Final Exam</b></center></th>
 		</tr>		
 
 </table>
