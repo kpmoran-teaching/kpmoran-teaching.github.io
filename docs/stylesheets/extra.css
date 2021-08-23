@@ -15,6 +15,10 @@
   background-color: #01693F !important;
 }
 
+.md-nav__title[for=__toc] {
+  background-color: #01693F !important;
+}
+
 .md-typeset table:not([class]){
   box-shadow: 0 .2rem .5rem rgba(0,0,0,.4),0 0 .05rem rgba(0,0,0,.1);
 }
