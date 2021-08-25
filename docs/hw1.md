@@ -15,6 +15,8 @@
  
 In this homework assignment, you will download a JSON dataset from the web and write a simple data analytics package in JavaScript to answer eight questions about your dataset.
  
+### Assignment Instructions
+ 
 #### Step 1: Download a JSON dataset from a website
 
 In this step, you will collect a JSON dataset containing at least 100 rows (i.e., entries) from a website. You are free to choose whatever data source you’d like. Note that some, but not all, data sources may first require you to obtain an API key by creating an account with the data provider. You should not choose any API that requires you to authenticate using oAuth, as we have not yet covered oAuth.
@@ -52,32 +54,32 @@ In this step, you will now create a JavaScript program to compute the answers to
 Your program must use all of the following JavaScript features:
 
 * **Variable declarations**
- * Let statement
- * Const statement
+	* Let statement
+	* Const statement
 
 * **Functions**
- * Arrow function
- * Default values
- * Array.map()
+	* Arrow function
+	* Default values
+	* Array.map()
 
 * **Loops**
- * For of statement
- * For in statement
+	* For of statement
+	* For in statement
 
 * **Collections**
- * Instance of a Map or Set collection (only 1 is required)
+	* Instance of a Map or Set collection (only 1 is required)
 
 * **Strings**
- * Template literal
+	* Template literal
 
 * **Classes**
- * Class declaration
- * Constructor
- * Using an instance variable with this
+	* Class declaration
+	* Constructor
+	* Using an instance variable with this
  
 You are welcome and encouraged to consult any publicly available resource you wish (e.g., [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/), tutorials, blog posts, StackOverflow). However, in this assignment, all of the code you submit should be your own.
  
-#### Submission instructions
+### Submission instructions
 
 * Submit your HW through [**replit**](). Please see [these instructions](../replit-instructions) for signing up for the replit account and accessing HW1. You should be able to complete this project using only the replit web interface. However, if you would like to work locally on your machine, you can code using your preferred environment and then upload the final `.js` file through replit.
 
