@@ -88,7 +88,7 @@ width: 15%
 </ul></td>
 	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From XHR to Promises</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><a style="font-size:12px;" href="../hw1/">HW Assignment 1</a></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><a style="font-size:12px;" href="../hw1/">HW Assign. 1</a></td>
 		</tr>
 		
 		<tr>
@@ -154,7 +154,7 @@ width: 15%
 		</ul></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Servlet Microservices</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 2</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 2</td>
 		</tr>
 		
 		<tr>
@@ -220,7 +220,7 @@ width: 15%
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Material UI</a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 3</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 3</td>
 		</tr>
 		
 		<tr>
@@ -280,7 +280,7 @@ width: 15%
 	<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 4</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 4</td>
 		</tr>
 		
 		<tr>
@@ -318,7 +318,7 @@ width: 15%
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 5</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 5</td>
 		</tr>
 		<tr>
 		</tr>
