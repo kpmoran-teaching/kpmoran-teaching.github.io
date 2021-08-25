@@ -26,9 +26,9 @@
 	<li style="font-size:14px";><b>Instructor:</b> David Gonzalez Samudio</a></li>
 				<li style="font-size:14px";><b>Office:</b> <a href="https://cs.gmu.edu/about/visit-the-department/">Nguyen Engineering Building</a> TBA</li>
 				<li style="font-size:14px";><b>Email:</b> <a href="mailto:dgonza10@gmu.edu">dgonza10(at)gmu.edu</a></li>
-				<li style="font-size:14px";><b>(Virtual) Office Hours:</b> TBA</li>
+				<li style="font-size:14px";><b>(Hybrid) Office Hours:</b> Monday 3:00pm-4:00pm, Thursday 3:00pm-4:00pm, or by appointment</li>
 				<li style="font-size:14px";><div style="text-align: center;">
-<a href="" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
+<a href="https://gmu.zoom.us/j/7362431377" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
 </div></li>
 			<ul>
 		</td>

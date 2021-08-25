@@ -277,9 +277,6 @@ width: 15%
 		<tr>
 		<td><u>Topic 2:</u> Visual Design</td>
 		</tr>
-
-	
-	
 	
 		
 <!--------------------------------------------------------------------------------->
@@ -305,7 +302,7 @@ width: 15%
 
 	<!--Week 15-->
 	<tr>
-		<!-- Week -->			<td rowspan="2"><b>Week 14 - November 30th</b></td>
+		<!-- Week -->			<td rowspan="2"><b>Week 15 - November 30th</b></td>
 		
 		<!-- Topic -->		<td rowspan="2">Review</td>
 		<!-- Readings -->	<td rowspan="2"></td>
