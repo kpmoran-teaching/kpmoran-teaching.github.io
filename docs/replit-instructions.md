@@ -21,14 +21,18 @@ In replit, our course is organized as a "team", and you will need to join this t
 </style>
 
 <div style="text-align: center;">
-<a href="https://replit.com/teams/join/ytycoiasnoodvirnvtbxqrspmqzwbsxf-SWE-432-F21" title="Click Here to Access the Assignment in replit" class="md-button md-button--primary"> Click Here to Access the Assignment via Replit </a>
+<a href="https://replit.com/teams/join/ytycoiasnoodvirnvtbxqrspmqzwbsxf-SWE-432-F21" title="Click Here to Sign up for SWE-432 on Replit" class="md-button md-button--primary"> Click Here to Sign Up for SWE-432 on Replit</a>
 </div>
 
 ### Accessing Individual HW Assignments
 
 HW assignments that are to be completed through replit will have a link to the assignment at the bottom of the assignment page. Once you have signed up for an account, and joined the class via the link above, you can click on the button to join the assignment from the respective assignment page. For the sake of demonstration, let's work through adding the initial assignment for HW1 below.
 
-1. First click on the assignment link, this will prompt you to log in if you haven't already done so.
+<div style="text-align: center;">
+<a href="https://replit.com/team/SWE-432-F21/HW1-Assignment" title="Click Here to Access HW Assignment 1 in replit" class="md-button md-button--primary"> Click Here to Access HW Assignment 1 via Replit </a>
+</div>
+
+1. First click on the assignment link above and open it in a new window, this will prompt you to log in if you haven't already done so.
 
 2. Once you log in, you will be presented with the screen shown below. Here you can see the HW assignment, and the button to start working on the homework assignment, called the "Start Project" button. Click on the "Start Project" button to move on.
 

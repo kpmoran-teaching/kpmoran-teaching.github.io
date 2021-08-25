@@ -81,7 +81,7 @@ You are welcome and encouraged to consult any publicly available resource you wi
  
 ### Submission instructions
 
-* Submit your HW through [**replit**](). Please see [these instructions](../replit-instructions) for signing up for the replit account and accessing HW1. You should be able to complete this project using only the replit web interface. However, if you would like to work locally on your machine, you can code using your preferred environment and then upload the final `.js` file through replit.
+* Submit your HW through [**replit**](https://replit.com/). Please follow [these instructions](../replit-instructions) for signing up for the replit account and accessing HW1. You should be able to complete this project using only the replit web interface. However, if you would like to work locally on your machine, you can code using your preferred environment and then upload the final `.js` file through replit.
 
 
 The HW assignment submission should consist of one `.js` file containing:
