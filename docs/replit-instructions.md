@@ -35,7 +35,6 @@ HW assignments that are to be completed through replit will have a link to the a
 1. First click on the assignment link above and open it in a new window, this will prompt you to log in if you haven't already done so.
 
 2. Once you log in, you will be presented with the screen shown below. Here you can see the HW assignment, and the button to start working on the homework assignment, called the "Start Project" button. Click on the "Start Project" button to move on.
-
 ![Splash screen navigating to AVD Manager](../images/replit-1.png)
 
 3. Once you have clicked on the start project button, this will bring up the In-browser IDE for the HW assignment. The configuration of the IDE will be set up Dr. Moran & David specifically for each assignment. For example, for the first homework assignment, you will only be required to work in the `script.js` file. 
