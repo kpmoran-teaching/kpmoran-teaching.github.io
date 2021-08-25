@@ -86,9 +86,9 @@ width: 15%
 <li style="font-size:12px";><a style="font-size:12px;" href="https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/">Node.js event loop</a></li>
 
 </ul></td>
-	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
+	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From XHR to Promises</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><a style="font-size:12px;" href="../hw1/">HW1</a></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><a style="font-size:12px;" href="../hw1/">HW Assignment 1</a></td>
 		</tr>
 		
 		<tr>
@@ -109,7 +109,7 @@ width: 15%
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction">Intro to  Node & Express</a></li>
 		<li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">Overview of HTTP</a></li><li style="font-size:12px";><a style="font-size:12px;" href="https://www.infoq.com/articles/rest-introduction">Intro to REST</a></li>
 		</ul></td>
-		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From Fetch to Axios</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
@@ -132,7 +132,7 @@ width: 15%
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/read-and-write">Firebase Read & Write Data</a></li>
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://www.martinfowler.com/articles/microservices.html">Microservices</a></li>
 		</ul></td>
-		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">A Chat on Fire!</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
@@ -152,9 +152,9 @@ width: 15%
 		
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/">Intro to CORS</a></li>
 		</ul></td>
-		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Servlet Microservices</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW2</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 2</td>
 		</tr>
 		
 		<tr>
@@ -200,7 +200,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> React Part I</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Reacting to Client Requests using Microservices</a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
@@ -219,8 +219,8 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> CSS & DOM</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW3</td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Material UI</a></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 3</td>
 		</tr>
 		
 		<tr>
@@ -280,7 +280,7 @@ width: 15%
 	<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW4</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 4</td>
 		</tr>
 		
 		<tr>
@@ -318,7 +318,7 @@ width: 15%
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW5</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assignment 5</td>
 		</tr>
 		<tr>
 		</tr>
