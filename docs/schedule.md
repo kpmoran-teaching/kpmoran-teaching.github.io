@@ -27,6 +27,7 @@ width: 15%
 		<th class="week"><h4>Week</h4></th>
 		<th class="topic"><h4>Topic</h4></th>
 		<th class="readings"><h4>References/Readings</h4></th>
+		<th class="readings"><h4>Hands-On Session</h4></th>
 		<th class="lecture"><h4>Lecture Materials</h4></th>
 		<th class="assignments"><h4>Assignments Due</h4></th>
 	</tr>
@@ -37,6 +38,7 @@ width: 15%
 		<!-- Week -->			<td rowspan="2"><b>Week 1 - August 24th</b></td>
 		<!-- Topic 1 -->		<td><u>Topic 1:</u> Course Overview</td>
 		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A Re-introduction to Javascript</a></li><li style="font-size:12px";><a style="font-size:12px;" href="https://zellwk.com/blog/es6/">Introduction to Commonly used ES6 features</a></li></ul></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Vanilla JS vs. French Vanilla JS(1990s vs. 200s) </a></td>
 		<!-- Lecture -->		<td rowspan="2"><li><a style="font-size:12px;" href="">Slides</a></li>
 		
 		<li><a style="font-size:12px;" href="">Video</a></li></ul></td>
@@ -62,6 +64,7 @@ width: 15%
 	<li style="font-size:12px";><a style="font-size:12px;" href="https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/">Intro to Node Package Manager</a></li>
 	
 	</ul></td>
+	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Installing and Running NPM Locally</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
@@ -83,6 +86,7 @@ width: 15%
 <li style="font-size:12px";><a style="font-size:12px;" href="https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/">Node.js event loop</a></li>
 
 </ul></td>
+	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><a style="font-size:12px;" href="../hw1/">HW1</a></td>
 		</tr>
@@ -104,8 +108,8 @@ width: 15%
 		
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction">Intro to  Node & Express</a></li>
 		<li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">Overview of HTTP</a></li><li style="font-size:12px";><a style="font-size:12px;" href="https://www.infoq.com/articles/rest-introduction">Intro to REST</a></li>
-		
 		</ul></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
@@ -127,8 +131,8 @@ width: 15%
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/structure-data">Firebase Structure Data</a></li>
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://firebase.google.com/docs/database/web/read-and-write">Firebase Read & Write Data</a></li>
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://www.martinfowler.com/articles/microservices.html">Microservices</a></li>
-		
 		</ul></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
@@ -147,8 +151,8 @@ width: 15%
 		<!-- Readings -->	<td rowspan="2"><ul>
 		
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/">Intro to CORS</a></li>
-		
 		</ul></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW2</td>
 		</tr>
@@ -168,10 +172,10 @@ width: 15%
 	<!-- Readings -->	<td rowspan="2"><ul>
 	
 	<li style="font-size:12px";><a style="font-size:12px;" href="https://blogs.oracle.com/developers/getting-started-with-microservices-part-four">Fundamentals of DevOps</a></li>
-	
 	</ul></td>
-		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
+	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
+	<!-- Lecture -->		<td rowspan="2"></td>
+	<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
 		<tr>
@@ -196,6 +200,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> React Part I</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
@@ -214,6 +219,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> CSS & DOM</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW3</td>
 		</tr>
 		
@@ -233,6 +239,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> Usability and User-Centered Design</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
@@ -252,6 +259,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> Think-aloud Usability Studies</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
@@ -271,6 +279,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> Interaction Techniques</td>
 	<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW4</td>
 		</tr>
 		
@@ -289,6 +298,7 @@ width: 15%
 		<!-- Topic -->		<td><u>Topic 1:</u> Information Visualization</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
@@ -307,6 +317,7 @@ width: 15%
 		<!-- Topic -->		<td rowspan="2">Review</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW5</td>
 		</tr>
 		<tr>
