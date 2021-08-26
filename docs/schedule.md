@@ -41,7 +41,7 @@ width: 15%
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Vanilla JS vs. French Vanilla JS(1990s vs. 200s) </a></td>
 		<!-- Lecture -->		<td rowspan="2"><ul><li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-1-Course-Overview-and-Javascript.pdf">Slides</a></li>
 		
-		<li><a style="font-size:12px;" href="">Video (Coming Soon)</a></li></ul></td>
+		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../week1-lecture-video">Video</a></li></ul></td>
 		
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
@@ -88,7 +88,7 @@ width: 15%
 </ul></td>
 	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From XHR to Promises</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><a style="font-size:12px;" href="../hw1/">HW Assign. 1</a></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../hw1/">HW Assign. 1</a></td>
 		</tr>
 		
 		<tr>
@@ -199,8 +199,8 @@ width: 15%
 		<!-- Week -->			<td rowspan="2"><b>Week 9 - October 19th</b></td>
 		<!-- Topic -->		<td><u>Topic 1:</u> React Part I</td>
 		<!-- Readings -->	<td rowspan="2"></td>
-		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Reacting to Client Requests using Microservices</a></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
@@ -218,8 +218,8 @@ width: 15%
 		<!-- Week -->			<td rowspan="2"><b>Week 10 - October 26th</b></td>
 		<!-- Topic -->		<td><u>Topic 1:</u> CSS & DOM</td>
 		<!-- Readings -->	<td rowspan="2"></td>
-		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Material UI</a></td>
+		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 3</td>
 		</tr>
 		
