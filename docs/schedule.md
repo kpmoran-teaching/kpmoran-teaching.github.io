@@ -39,9 +39,9 @@ width: 15%
 		<!-- Topic 1 -->		<td><u>Topic 1:</u> Course Overview</td>
 		<!-- Readings -->	<td rowspan="2"><ul><li style="font-size:12px";><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A Re-introduction to Javascript</a></li><li style="font-size:12px";><a style="font-size:12px;" href="https://zellwk.com/blog/es6/">Introduction to Commonly used ES6 features</a></li></ul></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Vanilla JS vs. French Vanilla JS(1990s vs. 200s) </a></td>
-		<!-- Lecture -->		<td rowspan="2"><li><a style="font-size:12px;" href="">Slides</a></li>
+		<!-- Lecture -->		<td rowspan="2"><ul><li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-1-Course-Overview-and-Javascript.pdf">Slides</a></li>
 		
-		<li><a style="font-size:12px;" href="">Video</a></li></ul></td>
+		<li><a style="font-size:12px;" href="">Video (Coming Soon)</a></li></ul></td>
 		
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
