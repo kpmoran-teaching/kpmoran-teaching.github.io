@@ -154,7 +154,7 @@ width: 15%
 		</ul></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Servlet Microservices</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 2</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><b>HW 2</b></td>
 		</tr>
 		
 		<tr>
@@ -220,7 +220,7 @@ width: 15%
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Material UI</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 3</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><b>HW 3</b></td>
 		</tr>
 		
 		<tr>
@@ -280,7 +280,7 @@ width: 15%
 	<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 4</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><b>HW 4</b></td>
 		</tr>
 		
 		<tr>
@@ -318,7 +318,7 @@ width: 15%
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 5</td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><b>HW 5</b></td>
 		</tr>
 		<tr>
 		</tr>
