@@ -48,7 +48,7 @@ David, our TA will be dedicating part of his office hours each week to a "Hands-
 		<td><b>Session 1:</b> Vanilla JS vs. French Vanilla JS (1990s vs. 200s)</td>
 		<td>September 7th</td>
 		<td><div style="text-align: center;">
-<a href="" title="Assignment Page" class="md-button md-button--primary"> Session Materials (Coming Soon) </a>
+<a href="https://github.com/luminaxster/SWE432" title="Assignment Page" class="md-button md-button--primary"> Session Materials</a>
 </div></td>
 	</tr>
 	<tr>
