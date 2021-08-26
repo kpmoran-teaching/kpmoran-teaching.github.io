@@ -88,7 +88,7 @@ width: 15%
 </ul></td>
 	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From XHR to Promises</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../hw1/"><b>HW 1</b></a></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><span class="iconify" data-align="bottom" data-width="18" data-height="20" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../hw1/"><b>HW 1</b></a></td>
 		</tr>
 		
 		<tr>
