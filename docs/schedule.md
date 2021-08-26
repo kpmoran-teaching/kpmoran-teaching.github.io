@@ -317,7 +317,7 @@ width: 15%
 		<!-- Topic -->		<td rowspan="2">Review</td>
 		<!-- Readings -->	<td rowspan="2"></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Hands On Session -->		<td rowspan="2"></span><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
+		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions"></a></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2">HW Assign. 5</td>
 		</tr>
 		<tr>
