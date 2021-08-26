@@ -41,7 +41,7 @@ width: 15%
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Vanilla JS vs. French Vanilla JS(1990s vs. 200s) </a></td>
 		<!-- Lecture -->		<td rowspan="2"><ul><li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-1-Course-Overview-and-Javascript.pdf">Slides</a></li>
 		
-		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../week1-lecture-video">Video</a></li></ul></td>
+		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../week-1-lecture-video">Video</a></li></ul></td>
 		
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
