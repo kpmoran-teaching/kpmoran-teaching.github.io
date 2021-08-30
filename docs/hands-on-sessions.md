@@ -46,44 +46,44 @@ David, our TA will be dedicating part of his office hours each week to a "Hands-
 	</tr>
 	<tr>
 		<td><b>Session 1:</b> Vanilla JS vs. French Vanilla JS (1990s vs. 200s)</td>
-		<td>September 7th</td>
+		<td>August 26th</td>
 		<td><div style="text-align: center;">
 <a href="https://github.com/luminaxster/SWE432" title="Assignment Page" class="md-button md-button--primary"> Session Materials</a>
 </div></td>
 	</tr>
 	<tr>
 		<td><b>Session 2:</b> Installing and Running NPM Locally</td>
-		<td>September 28th</td>
+		<td>September 2nd</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><b>Session 3:</b> From XHR to Promises</td>
-		<td>September 7th</td>
+		<td>September 9th</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><b>Session 4:</b> From Fetch to Axios</td>
-		<td>September 14th</td>
+		<td>September 16th</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><b>Session 5:</b> A Chat on Fire!</td>
-		<td>September 21st</td>
+		<td>September 23rd</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><b>Session 6:</b> Servlet Microservices</td>
-		<td>September 28th</td>
+		<td>September 30th</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><b>Session 7:</b> Reacting to Client Requests using Microservices</td>
-		<td>October 19th</td>
+		<td>October 21st</td>
 		<td></td>
 	</tr>
 	<tr>
 		<td><b>Session 8:</b> Material UI</td>
-		<td>October 26th</td>
+		<td>October 28th</td>
 		<td></td>
 	</tr>
 </table>
