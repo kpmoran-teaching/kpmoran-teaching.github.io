@@ -89,7 +89,7 @@ width: 15%
 
 </ul></td>
 	<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From XHR to Promises</a></td>
-		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"><ul><li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-3-Lecture-Asynchronous-Programming-1-and-2.pdf">Slides</a></li></ul></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><span class="iconify" data-align="bottom" data-width="16" data-height="16" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../hw1/"><b>HW 1</b></a></td>
 		</tr>
 		
