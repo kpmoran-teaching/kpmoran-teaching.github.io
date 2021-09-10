@@ -1,5 +1,5 @@
 ---
-title: HW Assignment 2: Backend Development
+title: HW Assignment 2 - Backend Development 
 ---
 
 <table style="margin-left:auto; margin-right:auto;">
@@ -34,7 +34,7 @@ Imagine your microservice is offering city statistics. It might expose the follo
 	* GET /city/:cityID   
 * Add a new city 
 	* POST /city   
-* Retrieve data on a city’s average characteristics
+* Retrieve data on a city's average characteristics
 	* GET: /city/:cityID/averages
 * Retrieve the list of top cities
 	* GET: /topCities    
@@ -48,7 +48,7 @@ Imagine your microservice is offering city statistics. It might expose the follo
  
 #### Step 3: Implement your 7 defined User Scenarios
 
-In this step, you will implement the seven user scenarios you identified in Step 2. You should ensure that requests made by your code to the third-party API are correctly sequenced. For example, requests that require data from previous request(s) should only occur after the previous request(s) have succeeded. If a request fails, you should retry the request, if appropriate, based on the HTTP status code returned. To ensure that potentially long running computation does not block your microservice and cause it to become nonresponsive, you should decompose long running computations into separate events. To ensure that you load data from your data provider at a rate that does not exceed the provider’s rate limit, you may decide to use a timer to fetch data at specified time intervals.
+In this step, you will implement the seven user scenarios you identified in Step 2. You should ensure that requests made by your code to the third-party API are correctly sequenced. For example, requests that require data from previous request(s) should only occur after the previous request(s) have succeeded. If a request fails, you should retry the request, if appropriate, based on the HTTP status code returned. To ensure that potentially long running computation does not block your microservice and cause it to become nonresponsive, you should decompose long running computations into separate events. To ensure that you load data from your data provider at a rate that does not exceed the provider's rate limit, you may decide to use a timer to fetch data at specified time intervals.
  
 Requirements:
 
