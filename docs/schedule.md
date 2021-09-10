@@ -161,7 +161,7 @@ width: 15%
 		</ul></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">Servlet Microservices</a></td>
 		<!-- Lecture -->		<td rowspan="2"></td>
-		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><b>HW 2</b></td>
+		<!-- Assignments --><td style="font-size:12px"; rowspan="2"><span class="iconify" data-align="bottom" data-width="16" data-height="16" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../hw2/"><b>HW 2</b></a></td>
 		</tr>
 		
 		<tr>

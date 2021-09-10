@@ -37,7 +37,9 @@ All HWs are due by the time class begins (4:30pm) on the due date indicated.  Se
 	<tr>
 		<td><b>Assignment 2:</b> Backend Development</td>
 		<td>September 28th</td>
-		<td></td>
+		<td><div style="text-align: center;">
+<a href="../hw2/" title="Assignment Page" class="md-button md-button--primary"> Assignment Page </a>
+</div></td>
 	</tr>
 	<tr>
 		<td><b>Assignment 3:</b> Persistence & Frontend Development</td>
