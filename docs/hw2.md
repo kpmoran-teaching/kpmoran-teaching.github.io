@@ -1,11 +1,6 @@
-<style>
-  h1 {
-    display: none;
-    visibility: hidden;
-  }
-</style>
-
-## HW Assignment 2: Backend Development
+---
+title: HW Assignment 2: Backend Development
+---
 
 <table style="margin-left:auto; margin-right:auto;">
   <tr>
