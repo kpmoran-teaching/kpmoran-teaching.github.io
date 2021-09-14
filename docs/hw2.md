@@ -65,7 +65,6 @@ Requirements:
 * Decompose at least one potentially long running computation into separate events. It is not required that the computation you choose to decompose execute for any minimum amount of time. But you should choose to decompose a computation whose length will vary with the data returned by your data provider (e.g., the number of records returned).
 * Use await at least once when working with a promise.
 * Use JEST to write at least 12 unit tests to ensure that your code works correctly
-You are welcome and encouraged to consult any publicly available resource you wish (e.g., Mozilla Developer Network documentation, tutorials, blog posts, StackOverflow). However, in this assignment, all of the code you submit should be your own.
 
 ### Using Resources
  
