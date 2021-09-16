@@ -177,9 +177,9 @@ First download Postman here.
 
 Then, once the application is installed, you can create a new entry and send requests using the interface as seen below.
 
-<video controls>
-  <source src="../images/postman-1.mp4" type="video /mpeg">
-  Your browser does not support the video element. Kindly update it to latest version.
+<video width="600" controls>
+  <source src="../images/postman-1.mp4" type="video/mp4">
+  Your browser does not support the video element. Kindly update it to the latest version.
 </video>
 
 ### 5.7 - Running your Jest Tests Locally
