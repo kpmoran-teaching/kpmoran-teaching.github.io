@@ -38,7 +38,7 @@ In order help organize the repos for the second homework assignment, we will be 
 </style>
 
 <div style="text-align: center;">
-<a href="https://replit.com/teams/join/ytycoiasnoodvirnvtbxqrspmqzwbsxf-SWE-432-F21" title="Click Here to Accept the Assignment on GitHub Classroom" class="md-button md-button--primary">Click Here to Accept the Assignment on GitHub Classroom</a>
+<a href="https://classroom.github.com/a/A2vVInLA" title="Click Here to Accept the Assignment on GitHub Classroom" class="md-button md-button--primary">Click Here to Accept the Assignment on GitHub Classroom</a>
 </div>
 
 After you click on the link above you will be presented with the screen below. Simply click "Accept" to continue.
