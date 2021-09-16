@@ -114,7 +114,7 @@ Finally, you can click on the "Deploy Branch" button to deploy the current versi
 
 ### Compile and Build Errors
 
-Heroku compiles your code when you push it. If the compile fails, you can see the errors through the [Heroku dashboard](https://dashboard.heroku.com/apps). Click the "Activity" tab, and look for a red message reading “Build failed.” Note that if your automated tests fail in GitHub, then your application will not be deployed. When you are ready to work through step 5 of this tutorial, you can learn how to develop and compile locally, which is quicker and easier.
+Heroku compiles your code when you push it. If the compile fails, you can see the errors through the [Heroku dashboard](https://dashboard.heroku.com/apps). Click the "Activity" tab, and look for a red message reading “Build failed.” Note that if your automated tests fail in GitHub, then your application will not be deployed. When you are ready to work through the next step of this tutorial, you can learn how to develop and compile locally, which is quicker and easier.
 
 ## Setting Up and Using your Local Development Environment
 
