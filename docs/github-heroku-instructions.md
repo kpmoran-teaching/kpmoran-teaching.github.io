@@ -167,13 +167,13 @@ This will deploy a running version of your microservice at [http://localhost:300
 
 Now that you know how to run your code locally, you can start to work on your project by editing your code!
 
-To do this, you can use your Text Editor or IDE of choice. Some potential options include [vim](), [Sublime Text](), [Atom](), and [VSCode]() among many other options. Feel free to use whatever editor you feel most comfortable with for this homework assignment.
+To do this, you can use your Text Editor or IDE of choice. Some potential options include [vim](https://www.vim.org), [Sublime Text](https://www.sublimetext.com), [Atom](https://atom.io), and [VSCode](https://code.visualstudio.com) among many other options. Feel free to use whatever editor you feel most comfortable with for this homework assignment.
 
 ### Using Postman to Debug and Test your API Endpoints
 
-Throughout the development process, you may wish to test or debug the behavior of your API endpoints. To do this, you can use the [Postman]() app to send various types of requests. 
+Throughout the development process, you may wish to test or debug the behavior of your API endpoints. To do this, you can use the [Postman](https://www.postman.com) app to send various types of requests. 
 
-First download Postman here.
+First download Postman [here](https://www.postman.com).
 
 Then, once the application is installed, you can create a new entry and send requests using the interface as seen below.
 
