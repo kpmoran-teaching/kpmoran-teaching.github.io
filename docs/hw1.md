@@ -1,4 +1,6 @@
-## HW Assignment 1: Javascript
+---
+title: HW Assignment 1: Javascript
+---
 
 <table style="margin-left:auto; margin-right:auto;">
   <tr>

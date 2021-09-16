@@ -19,11 +19,22 @@ In this homework, you will create a simple microservice that fetches a dataset f
  
 ### Assignment Instructions
  
-#### Step 1: Create a GitHub Repo and Configure Heroku
+#### Step 1: Following the Tutorial for Setting up GitHub and Heroku
 
-In this step, you will create a GitHub repo for your homework assignment entitled "swe-432-hw2" and configure your repo to deploy your code using Heroku.
+Please follow the instructions for setting up this homework assignment in GitHub Classroom and deployment of your project via Heroku. 
 
-We will go over this process in class, and I will post detailed instructions below after class.
+<style type="text/css">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div style="text-align: center;">
+<a href="../github-heroku-instructions" title="Click Here to View HW 2 Tutorial" class="md-button md-button--primary">Click Here to View HW 2 Tutorial</a>
+</div>
+
  
 #### Step 2: Describe 7 User Scenarios
 
@@ -72,16 +83,18 @@ You are welcome and encouraged to consult any publicly available resource you wi
  
 ### Submission instructions
 
-Submit your HW assignment through [**Blackboard**](https://mymasonportal.gmu.edu). You will be submitting two urls: (i) The url to your github repo, and (ii) the url where your service is deployed. We will post the instructions for setting up GitHub and Heroku after our next class.
+In order for your assignment to be considered for grading, you must be sure that you fill out the following information at the top of your README file and ensure that this is up to date in your GitHub repo.
 
-<style type="text/css">
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
+*  **Student Name**
+*  **Student G-number**
+*  **Heroku Deployment URL**
 
-<div style="text-align: center;">
-<a href="https://replit.com/team/SWE-432-F21/HW1-Assignment" title="Click Here to turn in Assignment via Blackboard" class="md-button md-button--primary"> Click Here to Turn-in Assignment via Blackboard</a>
-</div>
+!!! warning
+    Failure to include this information in your submission is likely to result in a zero for the assignment!
+
+There is no formal submission process for this assignment. We will simply grade the last commit to the `main` branch of your repository before the deadline of 4:30pm on Wednesday, September 28th. If you make a commit after the deadline, we will grade the latest commit and your assignment will be considered late. Per our course policy, assignments submitted over 48 late will not be accepted.
+
+
+### Grading Rubric
+
+The grading Rubric will be posted by the end of the day on September 16th. This will include an explanation of what we are looking for in terms of coding style.
