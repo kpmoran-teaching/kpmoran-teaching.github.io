@@ -31,7 +31,7 @@ The first thing that you need to do is create **free** accounts for both [GitHub
 
 ## Joining the Assignment in GitHub Classroom
 
-<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Accepting the Assignment<p>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Accepting the Assignment</p>
 
 In order help organize the repos for the second homework assignment, we will be making use of [GitHub Classroom](https://classroom.github.com/). By "accepting" the assignment in GitHub Classroom, the service will automatically create a copy of the repository with the starter code that we covered in class. This will help get you up and running for this assignment. To "accept" the assignment, please click on the button below. (Note that you will be prompted to sign in to your GitHub account if you haven't already)
 
