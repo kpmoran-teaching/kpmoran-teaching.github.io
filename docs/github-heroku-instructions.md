@@ -6,6 +6,8 @@ title: Deploying a Node.js Web App Using GitHub and Heroku
 
 This tutorial explains how to deploy and develop a Heroku app through GitHub that can run a `node.js` microservice. The tutorial covers creating GitHub and Heroku accounts, deploying your app via Heroku, and developing your web app locally. To work through this tutorial, you will need to be connected to the internet, you will need to be comfortable issuing commands through a command-line terminal interface, be comfortable with the `git` version control system, and you will need to know how to program in `javascript` and `node.js`.
 
+----
+
 ## Prelude
 
 To develop web apps, it is important to mentally separate development from deployment. Development includes design, programming, testing, and debugging. Development is usually done locally on the developer’s computer. Deploying is the process of publishing a web app to a server so users can access it, including compiling, installing executables in appropriate folders (or directories in Unix-speak), checking connections to resources such as databases, and creating the URLs that clients will use to run the web app. In a large project, these issues can get quite complex and professional deployers take care of it. Our deployment process is small, simple, and student accessible. Heroku is a free hosting service for web apps than can be linked with GitHub to auto-deploy. Heroku also offers development tools so you can test and debug your app locally. This tutorial focuses on a `node.js` web application, but Heroku supports several other web software technologies.
@@ -16,6 +18,8 @@ Please take a moment to explore each concept, technology, command, activity, and
 
 Additionally, check out [Dr. Moran's Week 4 lecture video](../week-4-lecture-video.md), where he covered many of the basics of getting started with Homework 2 using `node.js` and `Express`.
 
+----
+
 ## Create GitHub and Heroku Accounts
 
 The first thing that you need to do is create **free** accounts for both [GitHub](https://github.com/) and [Heroku](https://heroku.com/). 
@@ -23,9 +27,11 @@ The first thing that you need to do is create **free** accounts for both [GitHub
 *  You can sign up for a free GitHub account account using [this link](https://github.com/).
 *  You can sign up for a free Heroku account account using [this link](https://signup.heroku.com/).
 
+----
+
 ## Joining the Assignment in GitHub Classroom
 
-### Accepting the Assignment
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Accepting the Assignment<p>
 
 In order help organize the repos for the second homework assignment, we will be making use of [GitHub Classroom](https://classroom.github.com/). By "accepting" the assignment in GitHub Classroom, the service will automatically create a copy of the repository with the starter code that we covered in class. This will help get you up and running for this assignment. To "accept" the assignment, please click on the button below. (Note that you will be prompted to sign in to your GitHub account if you haven't already)
 
@@ -73,11 +79,23 @@ You can confirm that you were successfully added to the organization by seeing i
 !!! note
     If you are waiting on gaining access to the GMU-SWE432-F21 GitHub organization, you can skip ahead to the [section on local development](#setting-up-and-using-your-local-development-environment) of this tutorial and come back to set up your Heroku deployment later.
 
+### Starter Project Structure
+
+In order to give you an overview of the starter project, below, we provide the details regarding the most important included files below:
+
+*  **app,js -** This is the main JavaScript file containing the express app module and some initial logic to demonstrate the implementation of a couple very basic API endpoints. This should be your starting point for implementing the logic of your app. Note, that is is likely you will want to write some of your functionality in multiple files. That is, in order to better organize your web app (*keeping in mind the principles of coupling and cohesion from class*) you will likely want to break some units of functionality into different classes and files. In this case, you should export these files as modules and import them into the `app.js` file. *Note that you should only have one express server for this mircoservice* 
+*  **pckage.json -** This the configuration file for `npm`. This lists several different attributes for your application and provides some details about the various modules (i.e., packages) being used by the project. You are free to update this file if you wish, but this is neither required nor necessary for this project. 
+*  **app.test.js -** This file will hold all of your [jest](https://jestjs.io)/[supertest](https://www.npmjs.com/package/supertest) unit tests for HW Assignment #2. We have provided one example test in Jest format that makes use of the supertest framework to validate some properties of the HTTP requests made by our tests. You do not need to write *all* of your tests using supertest. In other words, your tests can and should test smaller portions of functionality that don't necessarily involve making a call to your API endpoint. For these cases *normal* jest tests written in the format we discussed in class will suffice.
+*  **server.js -** This file contains the `listen` statement that starts the server. You will notice that the `app.js` module is imported. The reasons this functionality is broken up into a separate file and not included in the `app.js` file is simply to make the automated testing process with jest and supertest easier.
+*  **Procfile -** This file contains some configuration information for Heroku. Essentially this tells Heroku what we want run when the app is deployed to the service. If you keep your main functionality in `app.js`, you should not have to modify this file. 
+
 ### Understanding Continuous Integration with GitHub Actions
 
 Currently, the starter repo is configured to run your Jest tests each time you push your code to the repository (See Section 5 for more information about how to push changes to your repo). This form of automated testing is a type of [continuous integration (CI)](https://www.atlassian.com/continuous-delivery/continuous-integration). Continuous integration is essentially the practice of automating the integration of code changes from contributors to a software project, and is generally considered to be a DevOps best practice. 
 
 Here we are using a simple form of CI, as your automated Jest tests will run each time you modify code and update your Github repo with the changes. As we will see in the next section ,we will configure Heroku to **only** deploy the application if your automated tests pass. We are enabling the automated tests using [GitHub Actions](https://github.com/features/actions). WE will touch on this more later in this tutorial.
+
+----
 
 ## Deploying your Web App via Heroku
 
@@ -115,6 +133,8 @@ Finally, you can click on the "Deploy Branch" button to deploy the current versi
 ### Compile and Build Errors
 
 Heroku compiles your code when you push it. If the compile fails, you can see the errors through the [Heroku dashboard](https://dashboard.heroku.com/apps). Click the "Activity" tab, and look for a red message reading “Build failed.” Note that if your automated tests fail in GitHub, then your application will not be deployed. When you are ready to work through the next step of this tutorial, you can learn how to develop and compile locally, which is quicker and easier.
+
+----
 
 ## Setting Up and Using your Local Development Environment
 
@@ -217,6 +237,7 @@ Currently, the tests are configured to run via GitHub Actions by getting deploye
 
 We expect that all of your (at least) 12 unit tests will have passed via CI by the time you turn in the assignment. That is, when you make your final commit (see the [Submission Section](#submitting-your-assignment)) we expect all tests to be passing in GitHub.
 
+----
 
 ## Submitting Your Assignment
 
@@ -227,6 +248,7 @@ In order for your assignment to be considered for grading, you must be sure that
 *  **Student Name**
 *  **Student G-number**
 *  **Heroku Deployment URL**
+*  **Description of your 7 API endpoints**
 
 !!! warning
     Failure to include this information in your submission is likely to result in a zero for the assignment!

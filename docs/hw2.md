@@ -88,6 +88,7 @@ In order for your assignment to be considered for grading, you must be sure that
 *  **Student Name**
 *  **Student G-number**
 *  **Heroku Deployment URL**
+*  **Description of your 7 API endpoints**
 
 !!! warning
     Failure to include this information in your submission is likely to result in a zero for the assignment!
