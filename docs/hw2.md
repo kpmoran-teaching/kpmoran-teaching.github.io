@@ -98,4 +98,17 @@ There is no formal submission process for this assignment. We will simply grade 
 
 ### Grading Rubric
 
-The grading Rubric will be posted by the end of the day on September 16th. This will include an explanation of what we are looking for in terms of coding style.
+The grading for this project will be broken down as follows:
+
+* **API Endpoints -** 4 points each (28 points total) We will take into account whether the requested Javascript features were used here.
+* **Unit Tests -** 1 point each (12 points total)
+* **Coding Style -** 10 points broken into the three categories below:
+	* 	*Documentation & Comments -* 4 points
+	*  *Modularity/Maintainability -* 3 points
+	*  *Identifier Intelligibility -* 3 points
+
+It is important to note that coding style will be an important component of this project's overall grading. Below, I provide some tips on earning these points:
+
+* *Documentation & Comments -* In order to earn these points, you should document all *non-obvious* functionality in your code. For example, if there is some complex computation that is not easily understood via identifiers, then this should be clearly documented in a comment. However, you should try to avoid documenting obvious information. For example, adding a comment to a variable named `citiesList` that states "This is the list that holds the cities" is not likely to be a valuable comment in the future. Part of this grade will also stem from your description of your endpoints in your README file.
+* *Modularity -* Throughout the course of this semester, one topic that has come up repeatedly is the idea of *code maintainability*. One of the best ways to help make your code more maintainable in the long run is to make it modular, that is try your best to achieve [*low coupling*](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) and [*high cohesion*](https://en.wikipedia.org/wiki/Cohesion_(computer_science)). We expect that you will break your project down into logical modules, and where appropriate, files.
+* *Identifier Intelligibility -* The final code style related item we will look at is the intelligibility of your identifiers. This should be pretty straightforward, use identifier names that correspond well with the concepts you are trying to represent. Try to avoid unnecessarily short (e.g., `i`) and unnecessarily long identifiers.
