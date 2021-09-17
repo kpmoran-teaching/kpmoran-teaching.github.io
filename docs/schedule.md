@@ -119,7 +119,7 @@ width: 15%
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From Fetch to Axios</a></td>
 		<!-- Lecture -->		<td rowspan="2"><ul><li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-4-Lecture-Backend-Development-and-HTTP-Requests.pdf">Slides</a></li>
 		
-		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../week-3-lecture-video">Video</a></li></ul></td>
+		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../week-4-lecture-video">Video</a></li></ul></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
