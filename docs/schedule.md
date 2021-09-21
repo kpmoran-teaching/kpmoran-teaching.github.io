@@ -117,9 +117,9 @@ width: 15%
 		<li><a style="font-size:12px;" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">Overview of HTTP</a></li><li style="font-size:12px";><a style="font-size:12px;" href="https://www.infoq.com/articles/rest-introduction">Intro to REST</a></li>
 		</ul></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">From Fetch to Axios</a></td>
-		<!-- Lecture -->		<td rowspan="2"><ul><li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-4-Lecture-Backend-Development-and-HTTP-Requests.pdf">Slides</a></li>
+		<!-- Lecture -->		<td rowspan="2"><ul><li><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-4-Lecture-Backend-Development-and-HTTP-Requests.pdf">Slides</a></li>
 		
-		<li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px;" href="../week-4-lecture-video">Video</a></li></ul></td>
+		<li><a style="font-size:12px;" href="../week-4-lecture-video">Video</a></li></ul></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
@@ -142,7 +142,7 @@ width: 15%
 		<li style="font-size:12px";><a style="font-size:12px;" href="https://www.martinfowler.com/articles/microservices.html">Microservices</a></li>
 		</ul></td>
 		<!-- Hands On Session -->		<td rowspan="2"><a style="font-size:12px;" href="../hands-on-sessions">A Chat on Fire!</a></td>
-		<!-- Lecture -->		<td rowspan="2"></td>
+		<!-- Lecture -->		<td rowspan="2"><ul><li><span class="iconify" data-align="bottom" data-width="18" data-height="18" data-icon="mdi:new-box" style="color:var(--md-accent-fg-color)"></span><a style="font-size:12px; line-height:18px; vertical-align:0.25em;" href="../lectures/Week-5-Lecture-Persistence-and-Microservices.pdf">Slides</a></li></ul></td>
 		<!-- Assignments --><td style="font-size:12px"; rowspan="2"></td>
 		</tr>
 		
