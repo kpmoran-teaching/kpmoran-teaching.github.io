@@ -1,0 +1,620 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <meta name="author" content="Kevin Moran">
+      
+      
+      
+        
+      
+      <link rel="icon" href="../images/GMU-Logo.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.8+insiders-3.0.1">
+    
+    
+      
+        <title>HW Assignment 2 - Backend Development - SWE 432 Web Application Development</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.dcf81f63.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.1d832a92.min.css">
+        
+      
+      <link rel="preload" as="style" href="../assets/stylesheets/vendor/mermaid.733f213f.min.css">
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?"..":".."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    
+      
+
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="SWE 432 Web Application Development" class="md-header__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="../images/GMU-Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SWE 432 Web Application Development
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              HW Assignment 2 - Backend Development
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../schedule/" class="md-tabs__link">
+      Schedule
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../assignments/" class="md-tabs__link">
+      Assignments
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../hands-on-sessions/" class="md-tabs__link">
+      Hands On Sessions
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../resources/" class="md-tabs__link">
+      Resources
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SWE 432 Web Application Development" class="md-nav__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="../images/GMU-Logo.png" alt="logo">
+
+    </a>
+    SWE 432 Web Application Development
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schedule/" class="md-nav__link">
+        Schedule
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/" class="md-nav__link">
+        Assignments
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hands-on-sessions/" class="md-nav__link">
+        Hands On Sessions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        Resources
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    Assignment Instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-resources" class="md-nav__link">
+    Using Resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submission-instructions" class="md-nav__link">
+    Submission instructions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grading-rubric" class="md-nav__link">
+    Grading Rubric
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                
+                  <h1>HW Assignment 2 - Backend Development</h1>
+                
+                <table style="margin-left:auto; margin-right:auto;">
+  <tr>
+    <th>Possible Points</th>
+    <th>Due Date</th> 
+  </tr>
+  <tr>
+    <td>50 pts</td>
+    <td>September 28th - Before Class</td>
+  </tr>
+</table>
+
+<h3 id="overview">Overview</h3>
+<p>In this homework, you will create a simple microservice that fetches a dataset from a third-party API and offers endpoints for manipulating a local copy of this dataset.</p>
+<h3 id="assignment-instructions">Assignment Instructions</h3>
+<h4 id="step-1-following-the-tutorial-for-setting-up-github-and-heroku">Step 1: Following the Tutorial for Setting up GitHub and Heroku</h4>
+<p>Please follow the instructions for setting up this homework assignment in GitHub Classroom and deployment of your project via Heroku. </p>
+<style type="text/css">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div style="text-align: center;">
+<a href="../github-heroku-instructions" title="Click Here to View HW 2 Tutorial" class="md-button md-button--primary">Click Here to View HW 2 Tutorial</a>
+</div>
+
+<h4 id="step-2-describe-7-user-scenarios">Step 2: Describe 7 User Scenarios</h4>
+<p>In this step, you will identify 7 scenarios that your microservice will support. Each scenario should correspond to a separate endpoint your microservice offers. At least 3 endpoints should involve information that is computed from your initial dataset (e.g., may not entirely consist of information from a 3rd party API). 
+Imagine your microservice is offering city statistics. It might expose the following endpoints</p>
+<ul>
+<li>Retrieve a city<ul>
+<li>GET /city/:cityID   </li>
+</ul>
+</li>
+<li>Add a new city <ul>
+<li>POST /city   </li>
+</ul>
+</li>
+<li>Retrieve data on a city's average characteristics<ul>
+<li>GET: /city/:cityID/averages</li>
+</ul>
+</li>
+<li>Retrieve the list of top cities<ul>
+<li>GET: /topCities    </li>
+</ul>
+</li>
+<li>Get the current weather on a city<ul>
+<li>GET: /city/:cityID/weather</li>
+</ul>
+</li>
+<li>Get the list of mass transit providers and links to their websites<ul>
+<li>GET /city/:cityID/transitProvders </li>
+</ul>
+</li>
+<li>Add a new transit provider<ul>
+<li>POST /city/:cityID/transitProvders </li>
+</ul>
+</li>
+</ul>
+<h4 id="step-3-implement-your-7-defined-user-scenarios">Step 3: Implement your 7 defined User Scenarios</h4>
+<p>In this step, you will implement the seven user scenarios you identified in Step 2. You should ensure that requests made by your code to the third-party API are correctly sequenced. For example, requests that require data from previous request(s) should only occur after the previous request(s) have succeeded. If a request fails, you should retry the request, if appropriate, based on the HTTP status code returned. To ensure that potentially long running computation does not block your microservice and cause it to become nonresponsive, you should decompose long running computations into separate events. To ensure that you load data from your data provider at a rate that does not exceed the provider's rate limit, you may decide to use a timer to fetch data at specified time intervals.</p>
+<p>Requirements:</p>
+<ul>
+<li>Use fetch to retrieve a dataset from a remote web service.<ul>
+<li>Data should be cached so that the same data is only retrieved from the remote web service once during the lifetime of your microservice.</li>
+<li>You should handle at least one potential error generated by the third-party API.</li>
+<li>Ensure all fetch requests are correctly sequenced.</li>
+</ul>
+</li>
+<li>Declare at least 2 classes to process and store data and include some of your application logic.</li>
+<li>Endpoints<ul>
+<li>At least 4 endpoints with route parameters (e.g. /:userId )</li>
+<li>At least 5 GET endpoints</li>
+<li>At least 2 POST endpoints.</li>
+<li>All invalid requests to your service should return an appropriate error message and status code.</li>
+</ul>
+</li>
+<li>Decompose at least one potentially long running computation into separate events. It is not required that the computation you choose to decompose execute for any minimum amount of time. But you should choose to decompose a computation whose length will vary with the data returned by your data provider (e.g., the number of records returned).</li>
+<li>Use await at least once when working with a promise.</li>
+<li>Use JEST to write at least 12 unit tests to ensure that your code works correctly</li>
+</ul>
+<h3 id="using-resources">Using Resources</h3>
+<p>You are welcome and encouraged to consult any publicly available resource you wish (e.g., <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network documentation</a>, tutorials, blog posts, StackOverflow). However, in this assignment, all of the code you submit should be your own.</p>
+<h3 id="submission-instructions">Submission instructions</h3>
+<p>In order for your assignment to be considered for grading, you must be sure that you fill out the following information at the top of your README file and ensure that this is up to date in your GitHub repo.</p>
+<ul>
+<li><strong>Student Name</strong></li>
+<li><strong>Student G-number</strong></li>
+<li><strong>Heroku Deployment URL</strong></li>
+<li><strong>Description of your 7 API endpoints</strong></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Failure to include this information in your submission is likely to result in a zero for the assignment!</p>
+</div>
+<p>There is no formal submission process for this assignment. We will simply grade the last commit to the <code>main</code> branch of your repository before the deadline of 4:30pm on Wednesday, September 28th. If you make a commit after the deadline, we will grade the latest commit and your assignment will be considered late. Per our course policy, assignments submitted over 48 late will not be accepted.</p>
+<h3 id="grading-rubric">Grading Rubric</h3>
+<p>The grading for this project will be broken down as follows:</p>
+<ul>
+<li><strong>API Endpoints -</strong> 4 points each (28 points total) We will take into account whether the requested Javascript features were used here.</li>
+<li><strong>Unit Tests -</strong> 1 point each (12 points total)</li>
+<li><strong>Coding Style -</strong> 10 points broken into the three categories below:<ul>
+<li><em>Documentation &amp; Comments -</em> 4 points</li>
+<li><em>Modularity/Maintainability -</em> 3 points</li>
+<li><em>Identifier Intelligibility -</em> 3 points</li>
+</ul>
+</li>
+</ul>
+<p>It is important to note that coding style will be an important component of this project's overall grading. Below, I provide some tips on earning these points:</p>
+<ul>
+<li><em>Documentation &amp; Comments -</em> In order to earn these points, you should document all <em>non-obvious</em> functionality in your code. For example, if there is some complex computation that is not easily understood via identifiers, then this should be clearly documented in a comment. However, you should try to avoid documenting obvious information. For example, adding a comment to a variable named <code>citiesList</code> that states "This is the list that holds the cities" is not likely to be a valuable comment in the future. Part of this grade will also stem from your description of your endpoints in your README file.</li>
+<li><em>Modularity -</em> Throughout the course of this semester, one topic that has come up repeatedly is the idea of <em>code maintainability</em>. One of the best ways to help make your code more maintainable in the long run is to make it modular, that is try your best to achieve <a href="https://en.wikipedia.org/wiki/Coupling_(computer_programming)"><em>low coupling</em></a> and <a href="https://en.wikipedia.org/wiki/Cohesion_(computer_science)"><em>high cohesion</em></a>. We expect that you will break your project down into logical modules, and where appropriate, files.</li>
+<li><em>Identifier Intelligibility -</em> The final code style related item we will look at is the intelligibility of your identifiers. This should be pretty straightforward, use identifier names that correspond well with the concepts you are trying to represent. Try to avoid unnecessarily short (e.g., <code>i</code>) and unnecessarily long identifiers.</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            ©2021 Kevin Moran
+          </div>
+        
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.b473f883.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e7b111c5.min.js"></script>
+      
+    
+  </body>
+</html>

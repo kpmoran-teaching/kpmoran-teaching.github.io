@@ -1,0 +1,748 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <meta name="author" content="Kevin Moran">
+      
+      
+      
+        
+      
+      <link rel="icon" href="images/GMU-Logo.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.8+insiders-3.0.1">
+    
+    
+      
+        <title>SWE 432 Web Application Development</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.dcf81f63.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.1d832a92.min.css">
+        
+      
+      <link rel="preload" as="style" href="assets/stylesheets/vendor/mermaid.733f213f.min.css">
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?".":"."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    
+      
+
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#course-description" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="SWE 432 Web Application Development" class="md-header__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="images/GMU-Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SWE 432 Web Application Development
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="." class="md-tabs__link md-tabs__link--active">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="schedule/" class="md-tabs__link">
+      Schedule
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="assignments/" class="md-tabs__link">
+      Assignments
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="hands-on-sessions/" class="md-tabs__link">
+      Hands On Sessions
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="resources/" class="md-tabs__link">
+      Resources
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="SWE 432 Web Application Development" class="md-nav__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="images/GMU-Logo.png" alt="logo">
+
+    </a>
+    SWE 432 Web Application Development
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#course-description" class="md-nav__link">
+    Course Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#welcome-video" class="md-nav__link">
+    Welcome Video
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-course-information" class="md-nav__link">
+    General Course Information
+  </a>
+  
+    <nav class="md-nav" aria-label="General Course Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#course-meeting-times" class="md-nav__link">
+    Course Meeting Times
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtual-course-spaces" class="md-nav__link">
+    Virtual Course Spaces
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-note-to-students-during-covid-19" class="md-nav__link">
+    A Note to Students during COVID-19
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-philosophy" class="md-nav__link">
+    Course Philosophy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    Learning Outcomes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="schedule/" class="md-nav__link">
+        Schedule
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="assignments/" class="md-nav__link">
+        Assignments
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hands-on-sessions/" class="md-nav__link">
+        Hands On Sessions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="resources/" class="md-nav__link">
+        Resources
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#course-description" class="md-nav__link">
+    Course Description
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#welcome-video" class="md-nav__link">
+    Welcome Video
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-course-information" class="md-nav__link">
+    General Course Information
+  </a>
+  
+    <nav class="md-nav" aria-label="General Course Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#course-meeting-times" class="md-nav__link">
+    Course Meeting Times
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtual-course-spaces" class="md-nav__link">
+    Virtual Course Spaces
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-note-to-students-during-covid-19" class="md-nav__link">
+    A Note to Students during COVID-19
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-philosophy" class="md-nav__link">
+    Course Philosophy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-outcomes" class="md-nav__link">
+    Learning Outcomes
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                
+                  <h1>Home</h1>
+                
+                <h2 id="course-description">Course Description</h2>
+<p>This course will provide a comprehensive introduction to web app development, covering JavaScript, back end development, front end development, and user interface design.</p>
+<h2 id="welcome-video">Welcome Video</h2>
+<div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+   <img src="images/intro-video.png" style="cursor:pointer" />
+</div>
+<div style="display:none">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/dLRDus_Si-Y' frameborder='0' allowfullscreen></iframe></div>
+</div>
+
+<h2 id="general-course-information">General Course Information</h2>
+<table width="100%">
+    <tr>
+        <th width="50%"> <h3>Faculty</h3> </th>
+        <th width="50%"> <h3>Teaching Assistant</h3> </th>
+    </tr>
+    <tr>
+        <td width="50%">
+            &nbsp;&nbsp; <img style="vertical-align:middle" src="images/Prof-Moran.png">
+            <ul>
+                <li style="font-size:14px";><b>Instructor:</b> <a href="https://www.kpmoran.com">Dr. Kevin Moran</a></li>
+                <li style="font-size:14px";><b>Office:</b> <a href="https://cs.gmu.edu/about/visit-the-department/">Nguyen Engineering Building</a> 4448</li>
+                <li style="font-size:14px";><b>Email:</b> <a href="mailto:kpmoran@gmu.edu">kpmoran(at)gmu.edu</a></li>
+                <li style="font-size:14px";><b>(Hybrid) Office Hours:</b> Monday 1:00pm-2:00pm, Wednesday, 1:00pm-2:00pm or by appointment</li>
+                <li style="font-size:14px";><div style="text-align: center;">
+<a href="https://gmu.zoom.us/j/92034905163" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
+</div></li>
+            <ul>
+        </td>
+        <td width="50%">
+            &nbsp;&nbsp; <img style="vertical-align:middle" src="images/David.png">
+            <ul>
+    <li style="font-size:14px";><b>Instructor:</b> David Gonzalez Samudio</a></li>
+                <li style="font-size:14px";><b>Office:</b> <a href="https://cs.gmu.edu/about/visit-the-department/">Nguyen Engineering Building</a> TBA</li>
+                <li style="font-size:14px";><b>Email:</b> <a href="mailto:dgonza10@gmu.edu">dgonza10(at)gmu.edu</a></li>
+                <li style="font-size:14px";><b>(Virtual) Office Hours:</b> Monday 3:00pm-4:00pm, Thursday 3:00pm-4:00pm, or by appointment</li>
+                <li style="font-size:14px";><div style="text-align: center;">
+<a href="https://gmu.zoom.us/j/7362431377" title="Office Hours" class="md-button md-button--primary"> Join Office Hours </a>
+</div></li>
+            <ul>
+        </td>
+    </tr>
+</table>
+
+<hr />
+<h3 id="course-meeting-times">Course Meeting Times</h3>
+<ul>
+<li><strong>Class Hours:</strong> Tuesdays, 4:30pm-7:10pm</li>
+<li><strong>Class Room:</strong> <a href="https://goo.gl/maps/5KKrsCF5ezTpwyfi7">Sandbridge Hall Room 107</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> </li>
+</ul>
+<!----
+<div style="text-align: center;">
+<a href="https://gmu.zoom.us/j/98318501915" title="Click Here to Join the Zoom Meeting" class="md-button md-button--primary">Join the Zoom Meeting </a>
+</div>
+--->
+
+<hr />
+<h3 id="virtual-course-spaces">Virtual Course Spaces</h3>
+<ul>
+<li><strong><a href="https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21">Course Website</a>:</strong> Syllabus, Schedule, Assignments, Lecture Slides, Lecture Recordings</li>
+<li><strong><a href="">Zoom</a>:</strong> Hybrid Office Hours - <a href="">Zoom Link</a> (Requires GMU Zoom Account)</li>
+<li><strong><a href="https://edstem.org">Ed Discussions</a><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>:</strong> Announcements, Discussion</li>
+<li><strong><a href="https://mymason.gmu.edu/">Blackboard (MyMason)</a>:</strong> Grades</li>
+</ul>
+<hr />
+<h2 id="a-note-to-students-during-covid-19">A Note to Students during COVID-19</h2>
+<p><em>Dear Students,</em></p>
+<p><em>Welcome to SWE-432 for the Fall 2021 semester! These are undoubtedly uncertain times, and first and foremost I want you to know that, as an instructor, I am here for you. I want you to be successful in this course, and I want to help facilitate that success. If you feel like you are falling behind, are affected by unforeseen circumstances, or simply want to discuss course material and its applications, send me an email! I am available and happy to hear from you.</em></p>
+<p><em>-Prof. Moran</em></p>
+<hr />
+<h2 id="course-philosophy">Course Philosophy</h2>
+<p>Web applications dominate the modern computing landscape. From finance, to transportation, to entertainment, these applications increasingly dictate how we interact with technology in our daily lives. However, programming for the modern web can seem to be a daunting challenge. Many questions arise such as What framework (from the many) should I use? How do I support desktop and mobile? How do I know if my application is usable? Can my application scale? In this course we aim to equip you with the knowledge required to be successful in modern web development.</p>
+<p>As such, this course has three main philosophical objectives:</p>
+<p>1) <em>Equip you with the foundational knowledge related to the concepts that drive modern web applications.</em></p>
+<ul>
+<li>For this objective, we will examine some of the conceptual underpinnings of modern web development such as principles of asynchronous programming, backend web development, and persistence, HTTP requests, etc.</li>
+</ul>
+<p>2) <em>Explore some of the most popular current web programming frameworks/libraries to provide practical experience using tools in use by developers today.</em> </p>
+<ul>
+<li>For this objective, we will explore the React web programming library in some depth.</li>
+</ul>
+<p>3) <em>Provide an understanding of the software engineering tools and practices that are available to achieve "good design" in a variety of settings.</em></p>
+<ul>
+<li>For this objective, we will explore topics such as empirical and analytical methods for conducting usability evaluations, as well as different principles for <em>usable</em> interface design that facilitate the development of User Interfaces.</li>
+</ul>
+<hr />
+<h2 id="learning-outcomes">Learning Outcomes</h2>
+<ul>
+<li>Knowledge of quantitative engineering principles for how to build software user interfaces, especially web-based user interfaces, that are usable</li>
+<li>Understanding the client-server and message-passing computing models in the context of web applications</li>
+<li>Knowledge for how to build usable, secure and effective web applications</li>
+<li>Theoretical and practical knowledge about how data are stored and shared in web applications</li>
+<li>Component software development using specific technologies</li>
+<li>Understanding that usability is more important than efficiency for almost all modern software projects, and often the primary factor that leads to product success</li>
+</ul>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Backup Instruction (should the class need to pivot to virtual) will be conducted on Zoom <a href="https://gmu.zoom.us/j/93312563201">Zoom Link</a> (Requires Signing In with GMU Zoom Account)&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Ed Discussions is a new type of software that we will be trialing for this semester. Think of this as a supercharged and easy to use version of Piazza 🙂&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+      
+        
+        <a href="schedule/" class="md-footer__link md-footer__link--next" aria-label="Next: Schedule" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Schedule
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            ©2021 Kevin Moran
+          </div>
+        
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.b473f883.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e7b111c5.min.js"></script>
+      
+    
+  </body>
+</html>

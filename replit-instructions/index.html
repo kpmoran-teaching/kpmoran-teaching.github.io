@@ -1,0 +1,548 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <meta name="author" content="Kevin Moran">
+      
+      
+      
+        
+      
+      <link rel="icon" href="../images/GMU-Logo.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.8+insiders-3.0.1">
+    
+    
+      
+        <title>Replit instructions - SWE 432 Web Application Development</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.dcf81f63.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.1d832a92.min.css">
+        
+      
+      <link rel="preload" as="style" href="../assets/stylesheets/vendor/mermaid.733f213f.min.css">
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?"..":".."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    
+      
+
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#using-replit-for-assignments" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="SWE 432 Web Application Development" class="md-header__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="../images/GMU-Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SWE 432 Web Application Development
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Replit instructions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../schedule/" class="md-tabs__link">
+      Schedule
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../assignments/" class="md-tabs__link">
+      Assignments
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../hands-on-sessions/" class="md-tabs__link">
+      Hands On Sessions
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../resources/" class="md-tabs__link">
+      Resources
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SWE 432 Web Application Development" class="md-nav__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="../images/GMU-Logo.png" alt="logo">
+
+    </a>
+    SWE 432 Web Application Development
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schedule/" class="md-nav__link">
+        Schedule
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/" class="md-nav__link">
+        Assignments
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hands-on-sessions/" class="md-nav__link">
+        Hands On Sessions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        Resources
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-replit-for-assignments" class="md-nav__link">
+    Using replit for Assignments
+  </a>
+  
+    <nav class="md-nav" aria-label="Using replit for Assignments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#signing-up-for-a-replit-account" class="md-nav__link">
+    Signing up for a replit account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#joining-the-swe-432-course-team" class="md-nav__link">
+    Joining the SWE-432 Course Team
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-individual-hw-assignments" class="md-nav__link">
+    Accessing Individual HW Assignments
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                
+                  <h1>Replit instructions</h1>
+                
+                <h2 id="using-replit-for-assignments">Using replit for Assignments</h2>
+<p>This semester, we will be using <a href="https://replit.com/">replit</a> for certain homework assignments. Replit is a cloud-based IDE that allows for programming with a range of different web technologies. This will allow us to facilitate answering questions and providing detailed feedback on your assignments. Please follow the steps below to sign up for a replit account and access assignments.</p>
+<h3 id="signing-up-for-a-replit-account">Signing up for a replit account</h3>
+<p>The first thing that you need to do before you can access replit, is to sign up for a free account <strong>using your gmu email address</strong>. This will allow you to join our class. </p>
+<p>You can sign up for a free replit account using <a href="">this link</a>.</p>
+<h3 id="joining-the-swe-432-course-team">Joining the SWE-432 Course Team</h3>
+<p>In replit, our course is organized as a "team", and you will need to join this team in order to access the class assignments. you can join the SWE-432 replit team using the button below:</p>
+<style type="text/css">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div style="text-align: center;">
+<a href="https://replit.com/teams/join/ytycoiasnoodvirnvtbxqrspmqzwbsxf-SWE-432-F21" title="Click Here to Sign up for SWE-432 on Replit" class="md-button md-button--primary"> Click Here to Sign Up for SWE-432 on Replit</a>
+</div>
+
+<h3 id="accessing-individual-hw-assignments">Accessing Individual HW Assignments</h3>
+<p>HW assignments that are to be completed through replit will have a link to the assignment at the bottom of the assignment page. Once you have signed up for an account, and joined the class via the link above, you can click on the button to join the assignment from the respective assignment page. For the sake of demonstration, let's work through adding the initial assignment for HW1 below.</p>
+<div style="text-align: center;">
+<a href="https://replit.com/team/SWE-432-F21/HW1-Assignment" title="Click Here to Access HW Assignment 1 in replit" class="md-button md-button--primary"> Click Here to Access HW Assignment 1 via Replit </a>
+</div>
+
+<ol>
+<li>
+<p>First click on the assignment link above and open it in a new window, this will prompt you to log in if you haven't already done so.</p>
+</li>
+<li>
+<p>Once you log in, you will be presented with the screen shown below. Here you can see the HW assignment, and the button to start working on the homework assignment, called the "Start Project" button. Click on the "Start Project" button to move on.
+<img alt="Splash screen navigating to AVD Manager" src="../images/replit-1.png" /></p>
+</li>
+<li>
+<p>Once you have clicked on the start project button, this will bring up the In-browser IDE for the HW assignment. The configuration of the IDE will be set up Dr. Moran &amp; David specifically for each assignment. For example, for the first homework assignment, you will only be required to work in the <code>script.js</code> file. </p>
+</li>
+</ol>
+<p>There are several important features that you should be aware of in the replit IDE that are highlighted below:</p>
+<ul>
+<li><strong>File explorer</strong> (highlighted in red) - this will allow you to navigate between the various files for the HW assignment </li>
+<li><strong>File Editor</strong> (highlighted in blue) - this is where you can edit your code and other text files for the assignment</li>
+<li><strong>Web Browser Window</strong> (highlighted in green) - this will allow you to see the html result of your code (if required for a HW)</li>
+<li><strong>Console/Shell</strong> (highlighted in purple) - this will allow you to see the shell output for your program </li>
+<li><strong>Submit button</strong> (highlighted in yellow) - after you have completed your project, you use this button to submit your work. You can submit your work multiple times before the deadline.</li>
+</ul>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/replit-2.png" /></p>
+<p>Once you have finished working on and testing your code, you can submit the assignment for review using the "Submit" button as indicated above. You can submit your code multiple times (e.g., you can submit, and then continue to edit your code and submit again). </p>
+                
+              
+              
+                
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            ©2021 Kevin Moran
+          </div>
+        
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.b473f883.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e7b111c5.min.js"></script>
+      
+    
+  </body>
+</html>

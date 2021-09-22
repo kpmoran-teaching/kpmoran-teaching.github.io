@@ -1,0 +1,714 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <meta name="author" content="Kevin Moran">
+      
+      
+      
+        
+      
+      <link rel="icon" href="../images/GMU-Logo.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.8+insiders-3.0.1">
+    
+    
+      
+        <title>Deploying a Node.js Web App Using GitHub and Heroku - SWE 432 Web Application Development</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.dcf81f63.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.1d832a92.min.css">
+        
+      
+      <link rel="preload" as="style" href="../assets/stylesheets/vendor/mermaid.733f213f.min.css">
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?"..":".."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    
+      
+
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="SWE 432 Web Application Development" class="md-header__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="../images/GMU-Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SWE 432 Web Application Development
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Deploying a Node.js Web App Using GitHub and Heroku
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="gmu" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../schedule/" class="md-tabs__link">
+      Schedule
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../assignments/" class="md-tabs__link">
+      Assignments
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../hands-on-sessions/" class="md-tabs__link">
+      Hands On Sessions
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../syllabus/" class="md-tabs__link">
+      Syllabus
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../resources/" class="md-tabs__link">
+      Resources
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SWE 432 Web Application Development" class="md-nav__button md-logo" aria-label="SWE 432 Web Application Development" data-md-component="logo">
+      
+  <img src="../images/GMU-Logo.png" alt="logo">
+
+    </a>
+    SWE 432 Web Application Development
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schedule/" class="md-nav__link">
+        Schedule
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assignments/" class="md-nav__link">
+        Assignments
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hands-on-sessions/" class="md-nav__link">
+        Hands On Sessions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syllabus/" class="md-nav__link">
+        Syllabus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        Resources
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prelude" class="md-nav__link">
+    Prelude
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-github-and-heroku-accounts" class="md-nav__link">
+    Create GitHub and Heroku Accounts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#joining-the-assignment-in-github-classroom" class="md-nav__link">
+    Joining the Assignment in GitHub Classroom
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-your-web-app-via-heroku" class="md-nav__link">
+    Deploying your Web App via Heroku
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-and-using-your-local-development-environment" class="md-nav__link">
+    Setting Up and Using your Local Development Environment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#submitting-your-assignment" class="md-nav__link">
+    Submitting Your Assignment
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                
+                  <h1>Deploying a Node.js Web App Using GitHub and Heroku</h1>
+                
+                <h2 id="overview">Overview</h2>
+<p>This tutorial explains how to deploy and develop a Heroku app through GitHub that can run a <code>node.js</code> microservice. The tutorial covers creating GitHub and Heroku accounts, deploying your app via Heroku, and developing your web app locally. To work through this tutorial, you will need to be connected to the internet, you will need to be comfortable issuing commands through a command-line terminal interface, be comfortable with the <code>git</code> version control system, and you will need to know how to program in <code>javascript</code> and <code>node.js</code>.</p>
+<hr />
+<h2 id="prelude">Prelude</h2>
+<p>To develop web apps, it is important to mentally separate development from deployment. Development includes design, programming, testing, and debugging. Development is usually done locally on the developer’s computer. Deploying is the process of publishing a web app to a server so users can access it, including compiling, installing executables in appropriate folders (or directories in Unix-speak), checking connections to resources such as databases, and creating the URLs that clients will use to run the web app. In a large project, these issues can get quite complex and professional deployers take care of it. Our deployment process is small, simple, and student accessible. Heroku is a free hosting service for web apps than can be linked with GitHub to auto-deploy. Heroku also offers development tools so you can test and debug your app locally. This tutorial focuses on a <code>node.js</code> web application, but Heroku supports several other web software technologies.</p>
+<p>We will be using GitHub Classroom to help manage the GitHub repositories for this assignment, and we also cover the basics of using it in this tutorial.</p>
+<p>Please take a moment to explore each concept, technology, command, activity, and action used in this tutorial. We try to strike a balance between brevity and completeness, and welcome feedback and suggestions. (Feel free to make an Ed post if you have questions!)</p>
+<p>Additionally, check out <a href="../week-4-lecture-video.md">Dr. Moran's Week 4 lecture video</a>, where he covered many of the basics of getting started with Homework 2 using <code>node.js</code> and <code>Express</code>.</p>
+<hr />
+<h2 id="create-github-and-heroku-accounts">Create GitHub and Heroku Accounts</h2>
+<p>The first thing that you need to do is create <strong>free</strong> accounts for both <a href="https://github.com/">GitHub</a> and <a href="https://heroku.com/">Heroku</a>. </p>
+<ul>
+<li>You can sign up for a free GitHub account account using <a href="https://github.com/">this link</a>.</li>
+<li>You can sign up for a free Heroku account account using <a href="https://signup.heroku.com/">this link</a>.</li>
+</ul>
+<hr />
+<h2 id="joining-the-assignment-in-github-classroom">Joining the Assignment in GitHub Classroom</h2>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Accepting the Assignment</p>
+
+<p>In order help organize the repos for the second homework assignment, we will be making use of <a href="https://classroom.github.com/">GitHub Classroom</a>. By "accepting" the assignment in GitHub Classroom, the service will automatically create a copy of the repository with the starter code that we covered in class. This will help get you up and running for this assignment. To "accept" the assignment, please click on the button below. (Note that you will be prompted to sign in to your GitHub account if you haven't already)</p>
+<style type="text/css">
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div style="text-align: center;">
+<a href="https://classroom.github.com/a/A2vVInLA" title="Click Here to Accept the Assignment on GitHub Classroom" class="md-button md-button--primary">Click Here to Accept the Assignment on GitHub Classroom</a>
+</div>
+
+<p>After you click on the link above you will be presented with the screen below. Simply click "Accept" to continue.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/gh-classroom-2.png" /></p>
+<p>You will then see a message that the service is working to create your assignment. After a few seconds, you can refresh the page and you should see a page similar to the following:</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/gh-classroom-3.png" /></p>
+<p>You can then click on the link to view your newly created repository. This repository should look like the example you see below.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/gh-classroom-4.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is important to note that you should <strong>only</strong> work out of this repository for this assignment. We will grade the last commit made before the deadline (see the <a href="../hw2">hw2 assignment page</a> for more details). If you make a commit <em>after</em> the deadline, we will grade that instead and your assignment will be considered late.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Note that the repo that is created is <strong>not</strong> associated with your GitHub username. Instead, it is associated with the GMU-SWE432-F21 GitHub Organization and your GitHub user is granted access. Therefore, it may not show up in the usual places where you find your personal repos in GitHub. Once you are added to the organization (see next instructions) it will be easy to access (You can do this by access the <a href="https://github.com/settings/organizations">organizations page</a> of your account). However, we also encourage you to bookmark link to the repository generated by GitHub Classroom.</p>
+</div>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Joining the Class Organization</p>
+
+<p>In order to properly deploy your application to Heroku, the instructors will need to add you to the GMU-SWE432-F21 GitHub Organization. This can only be done <strong>after</strong> you accept the assignment via the button above. By adding you to the organization, this will grant you the privilege to deploy the app from the organization in Heroku.</p>
+<p>We ask that all students "accept" the assignment in GitHub classroom by Monday, September 20th. However, we will add students as they register to the best of our ability.</p>
+<p>You can confirm that you were successfully added to the organization by seeing if your name appears in the member list <a href="https://github.com/orgs/GMU-SWE432-F21/people">here</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In order to join the organization and deploy your app through Heroku, you must accept the invitation sent to you by the instructors. You will receive an email invitation asking you to join the organization, and you should also see the invitation in GitHub if you visit the <a href="https://github.com/GMU-SWE432-F21">organization page</a>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are waiting on gaining access to the GMU-SWE432-F21 GitHub organization, you can skip ahead to the <a href="#setting-up-and-using-your-local-development-environment">section on local development</a> of this tutorial and come back to set up your Heroku deployment later.</p>
+</div>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Starter Project Structure</p>
+
+<p>In order to give you an overview of the starter project, below, we provide the details regarding the most important included files below:</p>
+<ul>
+<li><strong>app.js -</strong> This is the main JavaScript file containing the express app module and some initial logic to demonstrate the implementation of a couple very basic API endpoints. This should be your starting point for implementing the logic of your app. Note, that is is likely you will want to write some of your functionality in multiple files. That is, in order to better organize your web app (<em>keeping in mind the principles of coupling and cohesion from class</em>) you will likely want to break some units of functionality into different classes and files. In this case, you should export these files as modules and import them into the <code>app.js</code> file. <em>Note that you should only have one express server for this mircoservice</em> </li>
+<li><strong>pckage.json -</strong> This the configuration file for <code>npm</code>. This lists several different attributes for your application and provides some details about the various modules (i.e., packages) being used by the project. You are free to update this file if you wish, but this is neither required nor necessary for this project. </li>
+<li><strong>app.test.js -</strong> This file will hold all of your <a href="https://jestjs.io">jest</a>/<a href="https://www.npmjs.com/package/supertest">supertest</a> unit tests for HW Assignment #2. We have provided one example test in Jest format that makes use of the supertest framework to validate some properties of the HTTP requests made by our tests. You do not need to write <em>all</em> of your tests using supertest. In other words, your tests can and should test smaller portions of functionality that don't necessarily involve making a call to your API endpoint. For these cases <em>normal</em> jest tests written in the format we discussed in class will suffice.</li>
+<li><strong>server.js -</strong> This file contains the <code>listen</code> statement that starts the server. You will notice that the <code>app.js</code> module is imported. The reasons this functionality is broken up into a separate file and not included in the <code>app.js</code> file is simply to make the automated testing process with jest and supertest easier.</li>
+<li><strong>Procfile -</strong> This file contains some configuration information for Heroku. Essentially this tells Heroku what we want run when the app is deployed to the service. If you keep your main functionality in <code>app.js</code>, you should not have to modify this file. </li>
+</ul>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Understanding Continuous Integration with GitHub Actions</p>
+
+<p>Currently, the starter repo is configured to run your Jest tests each time you push your code to the repository (See Section 5 for more information about how to push changes to your repo). This form of automated testing is a type of <a href="https://www.atlassian.com/continuous-delivery/continuous-integration">continuous integration (CI)</a>. Continuous integration is essentially the practice of automating the integration of code changes from contributors to a software project, and is generally considered to be a DevOps best practice. </p>
+<p>Here we are using a simple form of CI, as your automated Jest tests will run each time you modify code and update your Github repo with the changes. As we will see in the next section ,we will configure Heroku to <strong>only</strong> deploy the application if your automated tests pass. We are enabling the automated tests using <a href="https://github.com/features/actions">GitHub Actions</a>. WE will touch on this more later in this tutorial.</p>
+<hr />
+<h2 id="deploying-your-web-app-via-heroku">Deploying your Web App via Heroku</h2>
+<p>Now that you have been granted access to the HW Assignment #2 starter repo through GitHub Classroom <strong>and</strong> you have been accepted into the GMU-SWE432-F21 GitHub Organization you are ready to deploy the starter web application using Heroku.</p>
+<p>Your Heroku app contains all the javascript files that you will deploy for your microservice. The name you choose becomes part of the URL address to your web apps. For instance, you can access an example web-app at <a href="https://kevin-moran-swe432-hw2.herokuapp.com">https://kevin-moran-swe432-hw2.herokuapp.com</a> for the example illustrated in this section.</p>
+<p>First you should sign into your Heroku account and navigate to the dashboard landing page illustrated below.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/heroku-1.png" /></p>
+<p>Then you should click on the "Create New App" button highlighted in red. This will bring you to the screen displayed below.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/heroku-2.png" /></p>
+<p>Next, you should create a name for your application. We would like you to adhere to the following naming convention when creating your app: <code>&lt;firstname-lastname&gt;-swe432-hw2</code>. For example if Dr. Moran were creating his Heroku app, he would use <code>kevin-moran-swe432-hw2</code>, as shown in the example url at the beginning of this section. After this you should click on the "Create App" button. Doing that should bring you to the screen shown below.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/heroku-3.png" /></p>
+<p>Next you will need to connect your GitHub account to Heroku. To do this, click on the GitHub button highlighted in the image above. You will then be prompted to authenticate your GitHub account and acknowledge that you are giving the Heroku service access. After that you should see the repository selection interface shown in the screen below. </p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/heroku-4.png" /></p>
+<p>Here you will need to select the repo that GitHub Classroom created for you. Therefore, you will need to select the class organization from the dropdown menu and then use the interface to search for your repository. After you select the proper repository, click on the "Connect" button to see the deployment interface as shown in the next screenshot.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is important to note that you will <strong>not</strong> be able to deploy your application until you have accepted the invitation to join the GMU-SWE432-F21 GitHub Organization.</p>
+</div>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/heroku-5.png" /></p>
+<p>After confirming your repository, you will then need to set up Heroku to deploy your application when you push to the <code>main</code> branch of your repository. To do this, you should "check" the option that will wait until your CI passes before deployment (this ensures you only deploy code that passes all of your tests). And then you should click on the "Enable Automatic Deployment" button. This means that each time you push to the <code>main</code> branch of your repository, and all of your automated tests pass, then your application will get deployed.</p>
+<p>Finally, you can click on the "Deploy Branch" button to deploy the current version of your application.</p>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Compile and Build Errors</p>
+
+<p>Heroku compiles your code when you push it. If the compile fails, you can see the errors through the <a href="https://dashboard.heroku.com/apps">Heroku dashboard</a>. Click the "Activity" tab, and look for a red message reading “Build failed.” Note that if your automated tests fail in GitHub, then your application will not be deployed. When you are ready to work through the next step of this tutorial, you can learn how to develop and compile locally, which is quicker and easier.</p>
+<hr />
+<h2 id="setting-up-and-using-your-local-development-environment">Setting Up and Using your Local Development Environment</h2>
+<p>Now that you have a GitHub repository to work from, and your web app will automatically deploy using Heroku, you need to set up an environment where you can develop and test your microservice "locally" on your own machine. This section of the guide will walk you through the different steps and commands necessary to do so.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This section of the tutorial assumes some familiarity with Git. If you are newer to using the Git version control system, I would encourage you to check out <a href="https://git-scm.com/docs/gittutorial">this guide</a>. </p>
+</div>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Downloading and Installing Node.js and Git</p>
+
+<p>Before we can get started with setting up your local development environment, you will need to install Node.js on your machine. </p>
+<p>Please visit the <a href="https://nodejs.org/en/download/">node.js download page</a> in order to download the version that is appropriate for your machine and operating system.</p>
+<p>Install Git on your local machine from <a href="https://git-scm.com/downloads">Git’s download site</a> if you do not already have it installed. This will let you use the <code>git</code> command.  For Windows, the Git download above adds bash if you do not already have it and has its own command window. If you already use <code>cygwin</code>, Git will add its command folder to your PATH environment variable. You can also use Windows Subsystem for Linux as mentioned earlier on in this guide.</p>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Cloning Your repository</p>
+
+<p>The first thing that you will need to do is clone the repository that GitHub Classroom created for you. To do this, navigate to your repo page and click on the "Clone" button, and then copy the url that is displayed by clicking on the clipboard icon as shown in the image below.</p>
+<p><img alt="Splash screen navigating to AVD Manager" src="../images/local-dev-1.png" /></p>
+<p>Next you will need to clone the repo from the command line. To do this, you can execute the following command. <strong>Note that you only need to run this command once.</strong></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>git clone https://github.com/GMU-SWE432-F21/&lt;your_repo_name&gt;
+</code></pre></div>
+</td></tr></table>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Make sure you navigate to the local directory where you would like your repository to be located before you clone your repo.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note that GitHub recently changed how it handles authentication. As such, you may need to set up an <code>ssh key</code>, use a personal access token, or authenticate using OAuth. Check out <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-the-command-line">this article</a> for you can set up command line access. Feel free to post any questions to Ed.</p>
+</div>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Deploying your Microservice Locally</p>
+
+<p>Now that you have cloned the repository by downloading it to your machine, you can deploy it locally to quickly check changes using an application such as Postman without having to push your code to GiHub and deploy to Heroku.</p>
+<p>To deploy your application locally, you can use the following commands:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="nb">cd</span> &lt;your-repo-name&gt; <span class="c1"># This will move you into the proper directory</span>
+npm install <span class="c1"># This will install all the neccesary packages</span>
+npm start <span class="c1"># This will start the express server and listen on port 3000</span>
+</code></pre></div>
+</td></tr></table>
+<p>This will deploy a running version of your microservice at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Editing Code</p>
+
+<p>Now that you know how to run your code locally, you can start to work on your project by editing your code!</p>
+<p>To do this, you can use your Text Editor or IDE of choice. Some potential options include <a href="https://www.vim.org">vim</a>, <a href="https://www.sublimetext.com">Sublime Text</a>, <a href="https://atom.io">Atom</a>, and <a href="https://code.visualstudio.com">VSCode</a> among many other options. Feel free to use whatever editor you feel most comfortable with for this homework assignment.</p>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Using Postman to Debug and Test your API Endpoints</p>
+
+<p>Throughout the development process, you may wish to test or debug the behavior of your API endpoints. To do this, you can use the <a href="https://www.postman.com">Postman</a> app to send various types of requests. </p>
+<p>First download Postman <a href="https://www.postman.com">here</a>.</p>
+<p>Then, once the application is installed, you can create a new entry and send requests using the interface as seen below.</p>
+<video width="600" controls>
+  <source src="../images/postman-1.mp4" type="video/mp4">
+  Your browser does not support the video element. Kindly update it to the latest version.
+</video>
+
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Running your Jest Tests Locally</p>
+
+<p>While the tests that you write will be automatically executed each time you commit your code to your repo, you can also run these tests locally to get an idea of their behavior before you commit and push your changes to the remote GitHub repository. </p>
+<p>To run your tests locally, you can run the following command within the directory of your project:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>npm <span class="nb">test</span> <span class="c1"># This will run all of the jest tests in the app.test.js file</span>
+</code></pre></div>
+</td></tr></table>
+<p>You will then see the output of the tests and whether or not they passed successfully.</p>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Pushing your Local Changes to the Remote Repo</p>
+
+<p>Reuse the following commands every time you need to send your changes to GitHub, in a terminal command-line window. Run these commands from your same project folder.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>git add .
+git commit -m <span class="s2">&quot;message explaining this commit&quot;</span> <span class="c1"># A good first-time message might be: &quot;Initial commit: first changes&quot;</span>
+git push
+</code></pre></div>
+</td></tr></table>
+<p>The text in quotes should explain what this current commit is doing and should be clear and explicit to avoid creating maintenance debt. The idea is to document why you made the changes so that everyone who wants to contribute to your project understand, including <strong>you</strong> after a month not looking at the file.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You may asked to authenticate with GitHub the first time you push. If you push again without changing anything, you will get the message “Everything up-to-date.” That's a good way to check if your repo is synchronized with your computer.</p>
+</div>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Examining Jest CI Test Results in GitHub Actions</p>
+
+<p>The starter GitHub repo is set up to run the Jest tests in the <code>app.test.js</code> file upon each commit to the main branch of the repository. If any of the tests fail, the CI process will fail and this will be indicated with red "X" on the main page of your repo, and GitHub will likely also send you a notification email that your automated tests have failed. You can view the errors by clicking on the red "X" and checking the test logs.</p>
+<p>Currently, the tests are configured to run via GitHub Actions by getting deployed to a remote virtual server with an Ubuntu operating system, where the <code>npm install</code> and <code>npm test</code> commands are executed. We don't anticipate you needing to change this configuration, as it is fine to keep all of your tests in the <code>app.test.js</code> for this assignment.</p>
+<p>We expect that all of your (at least) 12 unit tests will have passed via CI by the time you turn in the assignment. That is, when you make your final commit (see the <a href="#submitting-your-assignment">Submission Section</a>) we expect all tests to be passing in GitHub.</p>
+<hr />
+<h2 id="submitting-your-assignment">Submitting Your Assignment</h2>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Updating your Project README</p>
+
+<p>In order for your assignment to be considered for grading, you must be sure that you fill out the following information at the top of your README file and ensure that this is up to date in your GitHub repo.</p>
+<ul>
+<li><strong>Student Name</strong></li>
+<li><strong>Student G-number</strong></li>
+<li><strong>Heroku Deployment URL</strong></li>
+<li><strong>Description of your 7 API endpoints</strong></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Failure to include this information in your submission is likely to result in a zero for the assignment!</p>
+</div>
+<p style ="font-size: 1.25em; font-weight: 400; letter-spacing: -.01em; line-height: 1.5">Submission Protocol</p>
+
+<p>There is no formal submission process for this assignment. We will simply grade the last commit to the <code>main</code> branch of your repository before the deadline of 4:30pm on Wednesday, September 28th. If you make a commit after the deadline, we will grade the latest commit and your assignment will be considered late. Per our course policy, assignments submitted over 48 late will not be accepted.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            ©2021 Kevin Moran
+          </div>
+        
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.b473f883.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e7b111c5.min.js"></script>
+      
+    
+  </body>
+</html>
